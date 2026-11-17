@@ -1,78 +1,78 @@
-<svg width="1200px" height="498px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="visible" id="u1owl09p">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200px" height="498px" version="1.1" overflow="visible" id="u1owl09p">
    <desc>Engraved by Verovio 6.3.0[undefined]</desc>
    <defs>
       <g id="E050-u1owl09p">
-         <path transform="scale(1,-1)" d="M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z" />
+         <path transform="scale(1,-1)" d="M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z"/>
       </g>
       <g id="E262-u1owl09p">
-         <path transform="scale(1,-1)" d="M136 186v169h17v-164l44 14v-91l-44 -14v-165l44 12v-91l-44 -13v-155h-17v150l-76 -22v-155h-17v149l-43 -13v90l43 14v167l-43 -14v92l43 13v169h17v-163zM60 73v-167l76 22v168z" />
+         <path transform="scale(1,-1)" d="M136 186v169h17v-164l44 14v-91l-44 -14v-165l44 12v-91l-44 -13v-155h-17v150l-76 -22v-155h-17v149l-43 -13v90l43 14v167l-43 -14v92l43 13v169h17v-163zM60 73v-167l76 22v168z"/>
       </g>
       <g id="E084-u1owl09p">
-         <path transform="scale(1,-1)" d="M20 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z" />
+         <path transform="scale(1,-1)" d="M20 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z"/>
       </g>
       <g id="E0A4-u1owl09p">
-         <path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" />
+         <path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z"/>
       </g>
       <g id="E240-u1owl09p">
-         <path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" />
+         <path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z"/>
       </g>
       <g id="E0A3-u1owl09p">
-         <path transform="scale(1,-1)" d="M278 64c0 22 -17 39 -43 39c-12 0 -26 -3 -41 -10c-85 -43 -165 -94 -165 -156c5 -25 15 -32 49 -32c67 11 200 95 200 159zM0 -36c0 68 73 174 200 174c66 0 114 -39 114 -97c0 -84 -106 -173 -218 -173c-64 0 -96 32 -96 96z" />
+         <path transform="scale(1,-1)" d="M278 64c0 22 -17 39 -43 39c-12 0 -26 -3 -41 -10c-85 -43 -165 -94 -165 -156c5 -25 15 -32 49 -32c67 11 200 95 200 159zM0 -36c0 68 73 174 200 174c66 0 114 -39 114 -97c0 -84 -106 -173 -218 -173c-64 0 -96 32 -96 96z"/>
       </g>
       <g id="E4E6-u1owl09p">
-         <path transform="scale(1,-1)" d="M0 123c7 34 33 56 69 60c29 -3 43 -9 53 -29c4 -8 7 -15 10 -22c0 -21 -1 -25 -11 -35c-5 -8 -18 -14 -40 -20l12 -3l15 -1c44 0 97 26 122 56c10 11 18 26 24 42c7 1 15 2 22 3l-140 -424h-36l111 330c-10 -6 -27 -12 -53 -16l-52 -8h-10l-20 1c-1 0 -8 3 -21 6 c-37 9 -55 28 -55 60z" />
+         <path transform="scale(1,-1)" d="M0 123c7 34 33 56 69 60c29 -3 43 -9 53 -29c4 -8 7 -15 10 -22c0 -21 -1 -25 -11 -35c-5 -8 -18 -14 -40 -20l12 -3l15 -1c44 0 97 26 122 56c10 11 18 26 24 42c7 1 15 2 22 3l-140 -424h-36l111 330c-10 -6 -27 -12 -53 -16l-52 -8h-10l-20 1c-1 0 -8 3 -21 6 c-37 9 -55 28 -55 60z"/>
       </g>
       <g id="E260-u1owl09p">
-         <path transform="scale(1,-1)" d="M20 110c32 16 54 27 93 27c26 0 35 -3 54 -13c13 -7 24 -20 27 -38l4 -25c0 -28 -16 -57 -45 -89c-23 -25 -39 -44 -65 -68l-88 -79v644h20v-359zM90 106c-32 0 -48 -10 -70 -29v-194c31 31 54 59 71 84c21 32 32 59 32 84c0 9 1 16 1 20c0 14 -3 21 -11 30l-8 3z" />
+         <path transform="scale(1,-1)" d="M20 110c32 16 54 27 93 27c26 0 35 -3 54 -13c13 -7 24 -20 27 -38l4 -25c0 -28 -16 -57 -45 -89c-23 -25 -39 -44 -65 -68l-88 -79v644h20v-359zM90 106c-32 0 -48 -10 -70 -29v-194c31 31 54 59 71 84c21 32 32 59 32 84c0 9 1 16 1 20c0 14 -3 21 -11 30l-8 3z"/>
       </g>
    </defs>
    <style type="text/css">#u1owl09p g.ending, #u1owl09p g.fing, #u1owl09p g.reh, #u1owl09p g.tempo {font-weight:bold;}#u1owl09p g.dir, #u1owl09p g.dynam, #u1owl09p g.mNum {font-style:italic;}#u1owl09p g.label {font-weight:normal;}#u1owl09p ellipse, #u1owl09p path, #u1owl09p polygon, #u1owl09p polyline, #u1owl09p rect {stroke:currentColor}#u1owl09p g.cursor {fill:dodgerblue; color:dodgerblue;}#u1owl09p g.cursor.chord {fill:limegreen; color:limegreen;}</style>
    <svg class="definition-scale" color="black" font-family="Malgun Gothic" viewBox="0 0 24000 9950">
       <g class="page-margin" transform="translate(400, 300)">
-         <g id="ewbnwgh" class="mdiv pageMilestone" />
-         <g id="f150xq09" class="score pageMilestone" />
+         <g id="ewbnwgh" class="mdiv pageMilestone"/>
+         <g id="f150xq09" class="score pageMilestone"/>
          <g id="c5fapkl" class="system">
-            <g id="h1b002we" class="section systemMilestone" />
-            <g id="i1bhsrfk" class="pb" />
-            <g id="umcmf6m" class="section systemMilestone" />
+            <g id="h1b002we" class="section systemMilestone"/>
+            <g id="i1bhsrfk" class="pb"/>
+            <g id="umcmf6m" class="section systemMilestone"/>
             <g id="vhdsaxt" class="measure">
                <g id="e1wj5f2" class="mNum">
-                  <text y="470" text-anchor="middle" font-size="0px" />
+                  <text y="470" text-anchor="middle" font-size="0px"/>
                </g>
                <g id="f12l6v1i" class="staff">
-                  <path d="M0 740 L2622 740" stroke-width="13" />
-                  <path d="M0 920 L2622 920" stroke-width="13" />
-                  <path d="M0 1100 L2622 1100" stroke-width="13" />
-                  <path d="M0 1280 L2622 1280" stroke-width="13" />
-                  <path d="M0 1460 L2622 1460" stroke-width="13" />
+                  <path d="M0 740 L2622 740" stroke-width="13"/>
+                  <path d="M0 920 L2622 920" stroke-width="13"/>
+                  <path d="M0 1100 L2622 1100" stroke-width="13"/>
+                  <path d="M0 1280 L2622 1280" stroke-width="13"/>
+                  <path d="M0 1460 L2622 1460" stroke-width="13"/>
                   <g id="s11ep7ug" class="clef">
-                     <use xlink:href="#E050-u1owl09p" transform="translate(90, 1280) scale(0.72, 0.72)" />
+                     <use xlink:href="#E050-u1owl09p" transform="translate(90, 1280) scale(0.72, 0.72)"/>
                   </g>
                   <g id="ty1bw8p" class="keySig">
                      <g id="u1s8hs86" class="keyAccid">
-                        <use xlink:href="#E262-u1owl09p" transform="translate(735, 740) scale(0.72, 0.72)" />
+                        <use xlink:href="#E262-u1owl09p" transform="translate(735, 740) scale(0.72, 0.72)"/>
                      </g>
                   </g>
                   <g id="v1tjdiq9" class="meterSig">
-                     <use xlink:href="#E084-u1owl09p" transform="translate(1042, 920) scale(0.72, 0.72)" />
-                     <use xlink:href="#E084-u1owl09p" transform="translate(1042, 1280) scale(0.72, 0.72)" />
+                     <use xlink:href="#E084-u1owl09p" transform="translate(1042, 920) scale(0.72, 0.72)"/>
+                     <use xlink:href="#E084-u1owl09p" transform="translate(1042, 1280) scale(0.72, 0.72)"/>
                   </g>
                   <g id="g1a0hboo" class="layer">
                      <g id="hhhkbvz" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A4-u1owl09p" transform="translate(1733, 1550) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A4-u1owl09p" transform="translate(1733, 1550) scale(0.72, 0.72)"/>
                         </g>
                         <g id="znqfv3q" class="stem">
-                           <path d="M1950 1522 L1950 920" stroke-width="18" />
+                           <path d="M1950 1522 L1950 920" stroke-width="18"/>
                            <g id="ay0ip30" class="flag">
-                              <use xlink:href="#E240-u1owl09p" transform="translate(1941, 920) scale(0.72, 0.72)" />
+                              <use xlink:href="#E240-u1owl09p" transform="translate(1941, 920) scale(0.72, 0.72)"/>
                            </g>
                         </g>
                         <g id="i1stcsbq" class="verse">
                            <g id="jqar7hx" class="syl">
-                              <text x="1633" y="2252" font-size="0px">
+                              <text x="1633" y="2252" font-size="0px" transform=" translate(-90 0)">
                                  <tspan id="k1dva5g1" class="text">
-                                    <tspan font-size="450px">주</tspan>
+                                    <tspan font-size="630px">주</tspan>
                                  </tspan>
                               </text>
                            </g>
@@ -81,52 +81,52 @@
                   </g>
                </g>
                <g id="dlq9lco" class="barLine">
-                  <path d="M2609 740 L2609 1460" stroke-width="27" />
+                  <path d="M2609 740 L2609 1460" stroke-width="27"/>
                </g>
             </g>
             <g id="lrmr62f" class="measure">
                <g id="u33e2li" class="staff">
-                  <path d="M2622 740 L8678 740" stroke-width="13" />
-                  <path d="M2622 920 L8678 920" stroke-width="13" />
-                  <path d="M2622 1100 L8678 1100" stroke-width="13" />
-                  <path d="M2622 1280 L8678 1280" stroke-width="13" />
-                  <path d="M2622 1460 L8678 1460" stroke-width="13" />
+                  <path d="M2622 740 L8678 740" stroke-width="13"/>
+                  <path d="M2622 920 L8678 920" stroke-width="13"/>
+                  <path d="M2622 1100 L8678 1100" stroke-width="13"/>
+                  <path d="M2622 1280 L8678 1280" stroke-width="13"/>
+                  <path d="M2622 1460 L8678 1460" stroke-width="13"/>
                   <g id="x16jnelo" class="layer">
                      <g id="y9g9r8t" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A4-u1owl09p" transform="translate(2931, 1100) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A4-u1owl09p" transform="translate(2931, 1100) scale(0.72, 0.72)"/>
                         </g>
                         <g id="cyi5ul" class="dots">
-                           <ellipse cx="3247" cy="1010" rx="36" ry="36" />
+                           <ellipse cx="3247" cy="1010" rx="36" ry="36"/>
                         </g>
                         <g id="b16juz99" class="stem">
-                           <path d="M3148 1072 L3148 500" stroke-width="18" />
+                           <path d="M3148 1072 L3148 500" stroke-width="18"/>
                         </g>
                         <g id="zc03w81" class="verse">
                            <g id="a1ny9bz1" class="syl">
-                              <text x="2831" y="2252" font-size="0px">
+                              <text x="2831" y="2252" font-size="0px" transform=" translate(-90 0)">
                                  <tspan id="b447ret" class="text">
-                                    <tspan font-size="450px">님</tspan>
+                                    <tspan font-size="630px">님</tspan>
                                  </tspan>
                               </text>
                            </g>
                         </g>
                      </g>
                      <g id="c19dzr7t" class="beam">
-                        <polygon points="4649,470 5210,560 5210,650 4649,560" />
-                        <polygon points="4649,605 5210,695 5210,785 4649,695" />
+                        <polygon points="4649,470 5210,560 5210,650 4649,560"/>
+                        <polygon points="4649,605 5210,695 5210,785 4649,695"/>
                         <g id="d1yb8xlp" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(4441, 1100) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(4441, 1100) scale(0.72, 0.72)"/>
                            </g>
                            <g id="d1cddzju" class="stem">
-                              <path d="M4658 1072 L4658 488" stroke-width="18" />
+                              <path d="M4658 1072 L4658 488" stroke-width="18"/>
                            </g>
                            <g id="eg7aox3" class="verse">
                               <g id="fqbwweu" class="syl">
-                                 <text x="4312" y="2252" font-size="0px">
+                                 <text x="4312" y="2252" font-size="0px" transform=" translate(-85 0)">
                                     <tspan id="gg0p5yg" class="text">
-                                       <tspan font-size="450px">자</tspan>
+                                       <tspan font-size="630px">자</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -134,16 +134,16 @@
                         </g>
                         <g id="h1t3g6fk" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(4984, 1190) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(4984, 1190) scale(0.72, 0.72)"/>
                            </g>
                            <g id="evgfzkk" class="stem">
-                              <path d="M5201 1162 L5201 578" stroke-width="18" />
+                              <path d="M5201 1162 L5201 578" stroke-width="18"/>
                            </g>
                            <g id="i1piube0" class="verse">
                               <g id="ju9lrm9" class="syl">
-                                 <text x="4884" y="2252" font-size="0px">
+                                 <text x="4884" y="2252" font-size="0px" textLength="539.5004879422486" lengthAdjust="spacingAndGlyphs" transform=" translate(-44.75006103515625 0)">
                                     <tspan id="k1xx3ptp" class="text">
-                                       <tspan font-size="450px">비</tspan>
+                                       <tspan font-size="630px">비</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -151,19 +151,19 @@
                         </g>
                      </g>
                      <g id="ltll8ek" class="beam">
-                        <polygon points="5784,560 8118,515 8118,605 5784,650" />
+                        <polygon points="5784,560 8118,515 8118,605 5784,650"/>
                         <g id="mwj46v3" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(5576, 1280) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(5576, 1280) scale(0.72, 0.72)"/>
                            </g>
                            <g id="f1xksr1g" class="stem">
-                              <path d="M5793 1252 L5793 578" stroke-width="18" />
+                              <path d="M5793 1252 L5793 578" stroke-width="18"/>
                            </g>
                            <g id="ni4o6rv" class="verse">
                               <g id="o1n9n721" class="syl">
-                                 <text x="5476" y="2252" font-size="0px">
+                                 <text x="5476" y="2252" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="pypwjts" class="text">
-                                       <tspan font-size="450px">를</tspan>
+                                       <tspan font-size="630px">를</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -171,16 +171,16 @@
                         </g>
                         <g id="q1gkm1z3" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(6348, 1280) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(6348, 1280) scale(0.72, 0.72)"/>
                            </g>
                            <g id="g1pjy2kj" class="stem">
-                              <path d="M6565 1252 L6565 563" stroke-width="18" />
+                              <path d="M6565 1252 L6565 563" stroke-width="18"/>
                            </g>
                            <g id="r162bnmv" class="verse">
                               <g id="s1j2vjxk" class="syl">
-                                 <text x="6248" y="2252" font-size="0px">
+                                 <text x="6248" y="2252" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="t7qv2zs" class="text">
-                                       <tspan font-size="450px">베</tspan>
+                                       <tspan font-size="630px">베</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -188,16 +188,16 @@
                         </g>
                         <g id="uogkh64" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(7120, 1190) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(7120, 1190) scale(0.72, 0.72)"/>
                            </g>
                            <g id="h1hwofo0" class="stem">
-                              <path d="M7337 1162 L7337 548" stroke-width="18" />
+                              <path d="M7337 1162 L7337 548" stroke-width="18"/>
                            </g>
                            <g id="v17evftf" class="verse">
                               <g id="wneng9q" class="syl">
-                                 <text x="7020" y="2252" font-size="0px">
+                                 <text x="7020" y="2252" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="x5402s1" class="text">
-                                       <tspan font-size="450px">푸</tspan>
+                                       <tspan font-size="630px">푸</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -205,16 +205,16 @@
                         </g>
                         <g id="y12n6xa3" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(7892, 1100) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(7892, 1100) scale(0.72, 0.72)"/>
                            </g>
                            <g id="i1lcdxcl" class="stem">
-                              <path d="M8109 1072 L8109 533" stroke-width="18" />
+                              <path d="M8109 1072 L8109 533" stroke-width="18"/>
                            </g>
                            <g id="z1h5g3v5" class="verse">
                               <g id="a2l9i47" class="syl">
-                                 <text x="7792" y="2252" font-size="0px">
+                                 <text x="7792" y="2252" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="bxahao4" class="text">
-                                       <tspan font-size="450px">소</tspan>
+                                       <tspan font-size="630px">소</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -231,55 +231,55 @@
                   </text>
                </g>
                <g id="tofty1j" class="barLine">
-                  <path d="M8665 740 L8665 1460" stroke-width="27" />
+                  <path d="M8665 740 L8665 1460" stroke-width="27"/>
                </g>
             </g>
             <g id="c5s908a" class="measure">
                <g id="lrbo0iw" class="staff">
-                  <path d="M8678 740 L12947 740" stroke-width="13" />
-                  <path d="M8678 920 L12947 920" stroke-width="13" />
-                  <path d="M8678 1100 L12947 1100" stroke-width="13" />
-                  <path d="M8678 1280 L12947 1280" stroke-width="13" />
-                  <path d="M8678 1460 L12947 1460" stroke-width="13" />
+                  <path d="M8678 740 L12947 740" stroke-width="13"/>
+                  <path d="M8678 920 L12947 920" stroke-width="13"/>
+                  <path d="M8678 1100 L12947 1100" stroke-width="13"/>
+                  <path d="M8678 1280 L12947 1280" stroke-width="13"/>
+                  <path d="M8678 1460 L12947 1460" stroke-width="13"/>
                   <g id="o1hhi07f" class="layer">
                      <g id="p1nrmn5z" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A3-u1owl09p" transform="translate(8987, 1190) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A3-u1owl09p" transform="translate(8987, 1190) scale(0.72, 0.72)"/>
                         </g>
                         <g id="kxiuudu" class="dots">
-                           <ellipse cx="9303" cy="1190" rx="36" ry="36" />
+                           <ellipse cx="9303" cy="1190" rx="36" ry="36"/>
                         </g>
                         <g id="jh0koek" class="stem">
-                           <path d="M9204 1162 L9204 560" stroke-width="18" />
+                           <path d="M9204 1162 L9204 560" stroke-width="18"/>
                         </g>
                         <g id="q1e4ras2" class="verse">
                            <g id="r4ari0z" class="syl">
-                              <text x="8887" y="2252" font-size="0px">
+                              <text x="8887" y="2252" font-size="0px" transform=" translate(-90 0)">
                                  <tspan id="s1xk9oi8" class="text">
-                                    <tspan font-size="450px">서</tspan>
+                                    <tspan font-size="630px">서</tspan>
                                  </tspan>
                               </text>
                            </g>
                         </g>
                      </g>
                      <g id="tliggs3" class="rest">
-                        <use xlink:href="#E4E6-u1owl09p" transform="translate(11287, 1100) scale(0.72, 0.72)" />
+                        <use xlink:href="#E4E6-u1owl09p" transform="translate(11287, 1100) scale(0.72, 0.72)"/>
                      </g>
                      <g id="u1ybmkad" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A4-u1owl09p" transform="translate(12059, 1100) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A4-u1owl09p" transform="translate(12059, 1100) scale(0.72, 0.72)"/>
                         </g>
                         <g id="lg3vg5h" class="stem">
-                           <path d="M12276 1072 L12276 500" stroke-width="18" />
+                           <path d="M12276 1072 L12276 500" stroke-width="18"/>
                            <g id="m9yzmv2" class="flag">
-                              <use xlink:href="#E240-u1owl09p" transform="translate(12267, 500) scale(0.72, 0.72)" />
+                              <use xlink:href="#E240-u1owl09p" transform="translate(12267, 500) scale(0.72, 0.72)"/>
                            </g>
                         </g>
                         <g id="vu02sjo" class="verse">
                            <g id="w9kxhe2" class="syl">
-                              <text x="11959" y="2252" font-size="0px">
+                              <text x="11959" y="2252" font-size="0px" transform=" translate(-90 0)">
                                  <tspan id="x1b497h4" class="text">
-                                    <tspan font-size="450px">주</tspan>
+                                    <tspan font-size="630px">주</tspan>
                                  </tspan>
                               </text>
                            </g>
@@ -295,52 +295,52 @@
                   </text>
                </g>
                <g id="k4igm5h" class="barLine">
-                  <path d="M12934 740 L12934 1460" stroke-width="27" />
+                  <path d="M12934 740 L12934 1460" stroke-width="27"/>
                </g>
             </g>
             <g id="yiu5mxu" class="measure">
                <g id="hbixkxt" class="staff">
-                  <path d="M12947 740 L19003 740" stroke-width="13" />
-                  <path d="M12947 920 L19003 920" stroke-width="13" />
-                  <path d="M12947 1100 L19003 1100" stroke-width="13" />
-                  <path d="M12947 1280 L19003 1280" stroke-width="13" />
-                  <path d="M12947 1460 L19003 1460" stroke-width="13" />
+                  <path d="M12947 740 L19003 740" stroke-width="13"/>
+                  <path d="M12947 920 L19003 920" stroke-width="13"/>
+                  <path d="M12947 1100 L19003 1100" stroke-width="13"/>
+                  <path d="M12947 1280 L19003 1280" stroke-width="13"/>
+                  <path d="M12947 1460 L19003 1460" stroke-width="13"/>
                   <g id="mxo9od5" class="layer">
                      <g id="n4d6bvr" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A4-u1owl09p" transform="translate(13256, 1190) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A4-u1owl09p" transform="translate(13256, 1190) scale(0.72, 0.72)"/>
                         </g>
                         <g id="o1w3mosi" class="dots">
-                           <ellipse cx="13572" cy="1190" rx="36" ry="36" />
+                           <ellipse cx="13572" cy="1190" rx="36" ry="36"/>
                         </g>
                         <g id="naatcfb" class="stem">
-                           <path d="M13473 1162 L13473 560" stroke-width="18" />
+                           <path d="M13473 1162 L13473 560" stroke-width="18"/>
                         </g>
                         <g id="o1ng8u" class="verse">
                            <g id="p1ieh2cd" class="syl">
-                              <text x="13156" y="2252" font-size="0px">
+                              <text x="13156" y="2252" font-size="0px" transform=" translate(-90 0)">
                                  <tspan id="q1gfputi" class="text">
-                                    <tspan font-size="450px">님</tspan>
+                                    <tspan font-size="630px">님</tspan>
                                  </tspan>
                               </text>
                            </g>
                         </g>
                      </g>
                      <g id="r1yttjjn" class="beam">
-                        <polygon points="14974,560 15535,650 15535,740 14974,650" />
-                        <polygon points="14974,695 15535,785 15535,875 14974,785" />
+                        <polygon points="14974,560 15535,650 15535,740 14974,650"/>
+                        <polygon points="14974,695 15535,785 15535,875 14974,785"/>
                         <g id="sqacoxd" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(14766, 1190) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(14766, 1190) scale(0.72, 0.72)"/>
                            </g>
                            <g id="p1wognik" class="stem">
-                              <path d="M14983 1162 L14983 578" stroke-width="18" />
+                              <path d="M14983 1162 L14983 578" stroke-width="18"/>
                            </g>
                            <g id="t1x9in1i" class="verse">
                               <g id="uy7006e" class="syl">
-                                 <text x="14637" y="2252" font-size="0px">
+                                 <text x="14637" y="2252" font-size="0px" transform=" translate(-85 0)">
                                     <tspan id="vja3za9" class="text">
-                                       <tspan font-size="450px">자</tspan>
+                                       <tspan font-size="630px">자</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -348,16 +348,16 @@
                         </g>
                         <g id="w4ssqpz" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(15309, 1280) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(15309, 1280) scale(0.72, 0.72)"/>
                            </g>
                            <g id="qios553" class="stem">
-                              <path d="M15526 1252 L15526 668" stroke-width="18" />
+                              <path d="M15526 1252 L15526 668" stroke-width="18"/>
                            </g>
                            <g id="x415o75" class="verse">
                               <g id="y18bupii" class="syl">
-                                 <text x="15209" y="2252" font-size="0px">
+                                 <text x="15209" y="2252" font-size="0px" textLength="539.49951171875" lengthAdjust="spacingAndGlyphs" transform=" translate(-44.749755859375 0)">
                                     <tspan id="zh3k4of" class="text">
-                                       <tspan font-size="450px">비</tspan>
+                                       <tspan font-size="630px">비</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -365,20 +365,20 @@
                         </g>
                      </g>
                      <g id="aj9sexq" class="beam">
-                        <polygon points="16109,560 18443,515 18443,605 16109,650" />
+                        <polygon points="16109,560 18443,515 18443,605 16109,650"/>
                         <g id="bk59q9e" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(15901, 1370) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(15901, 1370) scale(0.72, 0.72)"/>
                            </g>
                            <g id="r1l8dtul" class="stem">
-                              <path d="M16118 1342 L16118 578" stroke-width="18" />
+                              <path d="M16118 1342 L16118 578" stroke-width="18"/>
                            </g>
-                           <g id="cuqcl4s" class="accid" />
+                           <g id="cuqcl4s" class="accid"/>
                            <g id="d4quzlr" class="verse">
                               <g id="e1gzkjay" class="syl">
-                                 <text x="15801" y="2252" font-size="0px">
+                                 <text x="15801" y="2252" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="f1eizcrk" class="text">
-                                       <tspan font-size="450px">를</tspan>
+                                       <tspan font-size="630px">를</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -386,17 +386,17 @@
                         </g>
                         <g id="gyd1qk5" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(16673, 1370) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(16673, 1370) scale(0.72, 0.72)"/>
                            </g>
                            <g id="slr9b2d" class="stem">
-                              <path d="M16890 1342 L16890 563" stroke-width="18" />
+                              <path d="M16890 1342 L16890 563" stroke-width="18"/>
                            </g>
-                           <g id="h138o1mt" class="accid" />
+                           <g id="h138o1mt" class="accid"/>
                            <g id="iemn4hv" class="verse">
                               <g id="j16zisyn" class="syl">
-                                 <text x="16573" y="2252" font-size="0px">
+                                 <text x="16573" y="2252" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="kj4tbf4" class="text">
-                                       <tspan font-size="450px">베</tspan>
+                                       <tspan font-size="630px">베</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -404,16 +404,16 @@
                         </g>
                         <g id="l1rrsjgg" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(17445, 1280) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(17445, 1280) scale(0.72, 0.72)"/>
                            </g>
                            <g id="trds3l9" class="stem">
-                              <path d="M17662 1252 L17662 548" stroke-width="18" />
+                              <path d="M17662 1252 L17662 548" stroke-width="18"/>
                            </g>
                            <g id="m12cm2pq" class="verse">
                               <g id="ne1p4pz" class="syl">
-                                 <text x="17345" y="2252" font-size="0px">
+                                 <text x="17345" y="2252" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="o1n9oyqk" class="text">
-                                       <tspan font-size="450px">푸</tspan>
+                                       <tspan font-size="630px">푸</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -421,16 +421,16 @@
                         </g>
                         <g id="pos3flq" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(18217, 1190) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(18217, 1190) scale(0.72, 0.72)"/>
                            </g>
                            <g id="u17maqw0" class="stem">
-                              <path d="M18434 1162 L18434 533" stroke-width="18" />
+                              <path d="M18434 1162 L18434 533" stroke-width="18"/>
                            </g>
                            <g id="q1gd4ndc" class="verse">
                               <g id="r1uoem0w" class="syl">
-                                 <text x="18117" y="2252" font-size="0px">
+                                 <text x="18117" y="2252" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="s2an04l" class="text">
-                                       <tspan font-size="450px">소</tspan>
+                                       <tspan font-size="630px">소</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -454,55 +454,55 @@
                   </text>
                </g>
                <g id="guff0d3" class="barLine">
-                  <path d="M18990 740 L18990 1460" stroke-width="27" />
+                  <path d="M18990 740 L18990 1460" stroke-width="27"/>
                </g>
             </g>
             <g id="t18ldsmn" class="measure">
                <g id="c150alqk" class="staff">
-                  <path d="M19003 740 L23204 740" stroke-width="13" />
-                  <path d="M19003 920 L23204 920" stroke-width="13" />
-                  <path d="M19003 1100 L23204 1100" stroke-width="13" />
-                  <path d="M19003 1280 L23204 1280" stroke-width="13" />
-                  <path d="M19003 1460 L23204 1460" stroke-width="13" />
+                  <path d="M19003 740 L23204 740" stroke-width="13"/>
+                  <path d="M19003 920 L23204 920" stroke-width="13"/>
+                  <path d="M19003 1100 L23204 1100" stroke-width="13"/>
+                  <path d="M19003 1280 L23204 1280" stroke-width="13"/>
+                  <path d="M19003 1460 L23204 1460" stroke-width="13"/>
                   <g id="f1ne0f09" class="layer">
                      <g id="g1kr2txi" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A3-u1owl09p" transform="translate(19312, 1280) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A3-u1owl09p" transform="translate(19312, 1280) scale(0.72, 0.72)"/>
                         </g>
                         <g id="w13gz34r" class="dots">
-                           <ellipse cx="19628" cy="1190" rx="36" ry="36" />
+                           <ellipse cx="19628" cy="1190" rx="36" ry="36"/>
                         </g>
                         <g id="vhy1or0" class="stem">
-                           <path d="M19529 1252 L19529 650" stroke-width="18" />
+                           <path d="M19529 1252 L19529 650" stroke-width="18"/>
                         </g>
                         <g id="h1wtpj8w" class="verse">
                            <g id="i1epxpx2" class="syl">
-                              <text x="19212" y="2252" font-size="0px">
+                              <text x="19212" y="2252" font-size="0px" transform=" translate(-90 0)">
                                  <tspan id="j159mpyi" class="text">
-                                    <tspan font-size="450px">서</tspan>
+                                    <tspan font-size="630px">서</tspan>
                                  </tspan>
                               </text>
                            </g>
                         </g>
                      </g>
                      <g id="k14ugcjs" class="beam">
-                        <polygon points="21820,560 22833,560 22833,650 21820,650" />
-                        <polygon points="22607,695 22833,695 22833,785 22607,785" />
+                        <polygon points="21820,560 22833,560 22833,650 21820,650"/>
+                        <polygon points="22607,695 22833,695 22833,785 22607,785"/>
                         <g id="lt8wgji" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(21612, 1190) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(21612, 1190) scale(0.72, 0.72)"/>
                            </g>
                            <g id="y1pfr15o" class="dots">
-                              <ellipse cx="21928" cy="1190" rx="36" ry="36" />
+                              <ellipse cx="21928" cy="1190" rx="36" ry="36"/>
                            </g>
                            <g id="xv73sgo" class="stem">
-                              <path d="M21829 1162 L21829 578" stroke-width="18" />
+                              <path d="M21829 1162 L21829 578" stroke-width="18"/>
                            </g>
                            <g id="m1ixutgz" class="verse">
                               <g id="n47i1qe" class="syl">
-                                 <text x="21512" y="2252" font-size="0px">
+                                 <text x="21512" y="2252" font-size="0px" transform=" translate(-180 0)">
                                     <tspan id="oaaa8zz" class="text">
-                                       <tspan font-size="450px">그리</tspan>
+                                       <tspan font-size="630px">그리</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -510,16 +510,16 @@
                         </g>
                         <g id="p1j4u0uc" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(22607, 1190) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(22607, 1190) scale(0.72, 0.72)"/>
                            </g>
                            <g id="zek0fck" class="stem">
-                              <path d="M22824 1162 L22824 578" stroke-width="18" />
+                              <path d="M22824 1162 L22824 578" stroke-width="18"/>
                            </g>
                            <g id="q1bjtzox" class="verse">
                               <g id="rjun94p" class="syl">
-                                 <text x="22497" y="2252" font-size="0px">
+                                 <text x="22497" y="2252" font-size="0px" textLength="1105.50048828125" lengthAdjust="spacingAndGlyphs" transform=" translate(-102.750244140625 0)">
                                     <tspan id="sr7lnjr" class="text">
-                                       <tspan font-size="450px">스도</tspan>
+                                       <tspan font-size="630px">스도</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -536,12 +536,12 @@
                   </text>
                </g>
                <g id="bg1z2ys" class="barLine">
-                  <path d="M23191 740 L23191 1460" stroke-width="27" />
+                  <path d="M23191 740 L23191 1460" stroke-width="27"/>
                </g>
             </g>
          </g>
          <g id="f1lkc8d5" class="system">
-            <g id="d8680y2" class="sb" />
+            <g id="d8680y2" class="sb"/>
             <g id="tg8dnf7" class="measure">
                <g id="p8l6ucq" class="mNum autogenerated">
                   <text y="3929" text-anchor="middle" font-size="0px">
@@ -551,55 +551,55 @@
                   </text>
                </g>
                <g id="c1kca4e5" class="staff">
-                  <path d="M0 4199 L7698 4199" stroke-width="13" />
-                  <path d="M0 4379 L7698 4379" stroke-width="13" />
-                  <path d="M0 4559 L7698 4559" stroke-width="13" />
-                  <path d="M0 4739 L7698 4739" stroke-width="13" />
-                  <path d="M0 4919 L7698 4919" stroke-width="13" />
+                  <path d="M0 4199 L7698 4199" stroke-width="13"/>
+                  <path d="M0 4379 L7698 4379" stroke-width="13"/>
+                  <path d="M0 4559 L7698 4559" stroke-width="13"/>
+                  <path d="M0 4739 L7698 4739" stroke-width="13"/>
+                  <path d="M0 4919 L7698 4919" stroke-width="13"/>
                   <g id="au7rnu6" class="clef">
-                     <use xlink:href="#E050-u1owl09p" transform="translate(90, 4739) scale(0.72, 0.72)" />
+                     <use xlink:href="#E050-u1owl09p" transform="translate(90, 4739) scale(0.72, 0.72)"/>
                   </g>
                   <g id="bo2wf59" class="keySig">
                      <g id="ceiwfov" class="keyAccid">
-                        <use xlink:href="#E262-u1owl09p" transform="translate(735, 4199) scale(0.72, 0.72)" />
+                        <use xlink:href="#E262-u1owl09p" transform="translate(735, 4199) scale(0.72, 0.72)"/>
                      </g>
                   </g>
                   <g id="gpg0ihj" class="layer">
                      <g id="h6ebq3e" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A4-u1owl09p" transform="translate(1295, 4739) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A4-u1owl09p" transform="translate(1295, 4739) scale(0.72, 0.72)"/>
                         </g>
                         <g id="b5znjcg" class="dots">
-                           <ellipse cx="1611" cy="4649" rx="36" ry="36" />
+                           <ellipse cx="1611" cy="4649" rx="36" ry="36"/>
                         </g>
                         <g id="ago0rvz" class="stem">
-                           <path d="M1512 4711 L1512 4109" stroke-width="18" />
+                           <path d="M1512 4711 L1512 4109" stroke-width="18"/>
                         </g>
                         <g id="i1xjjp2o" class="verse">
                            <g id="j5vc2yh" class="syl">
-                              <text x="1195" y="5711" font-size="0px">
+                              <text x="1195" y="5711" font-size="0px" transform=" translate(-90 0)">
                                  <tspan id="kvm48cm" class="text">
-                                    <tspan font-size="450px">님</tspan>
+                                    <tspan font-size="630px">님</tspan>
                                  </tspan>
                               </text>
                            </g>
                         </g>
                      </g>
                      <g id="l1bh8kqi" class="beam">
-                        <polygon points="3110,4109 3705,4019 3705,4109 3110,4199" />
-                        <polygon points="3110,4244 3705,4154 3705,4244 3110,4334" />
+                        <polygon points="3110,4109 3705,4019 3705,4109 3110,4199"/>
+                        <polygon points="3110,4244 3705,4154 3705,4244 3110,4334"/>
                         <g id="m1troi62" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(2902, 4739) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(2902, 4739) scale(0.72, 0.72)"/>
                            </g>
                            <g id="c7xofzs" class="stem">
-                              <path d="M3119 4711 L3119 4127" stroke-width="18" />
+                              <path d="M3119 4711 L3119 4127" stroke-width="18"/>
                            </g>
                            <g id="n1ei0lc1" class="verse">
                               <g id="o9y48ng" class="syl">
-                                 <text x="2773" y="5711" font-size="0px">
+                                 <text x="2773" y="5711" font-size="0px" transform=" translate(-85 0)">
                                     <tspan id="p8mqho6" class="text">
-                                       <tspan font-size="450px">자</tspan>
+                                       <tspan font-size="630px">자</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -607,16 +607,16 @@
                         </g>
                         <g id="qai2fhf" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(3479, 4649) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(3479, 4649) scale(0.72, 0.72)"/>
                            </g>
                            <g id="d185y8lq" class="stem">
-                              <path d="M3696 4621 L3696 4037" stroke-width="18" />
+                              <path d="M3696 4621 L3696 4037" stroke-width="18"/>
                            </g>
                            <g id="r1ocjlal" class="verse">
                               <g id="s9q7s2y" class="syl">
-                                 <text x="3379" y="5711" font-size="0px">
+                                 <text x="3379" y="5711" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="t1jp6a1a" class="text">
-                                       <tspan font-size="450px">비</tspan>
+                                       <tspan font-size="630px">비</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -624,22 +624,22 @@
                         </g>
                      </g>
                      <g id="u15bh54o" class="beam">
-                        <polygon points="4606,3974 7089,3974 7089,4064 4606,4064" />
+                        <polygon points="4606,3974 7089,3974 7089,4064 4606,4064"/>
                         <g id="v5gcxhp" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(4398, 4559) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(4398, 4559) scale(0.72, 0.72)"/>
                            </g>
                            <g id="esvj81e" class="stem">
-                              <path d="M4615 4531 L4615 3992" stroke-width="18" />
+                              <path d="M4615 4531 L4615 3992" stroke-width="18"/>
                            </g>
                            <g id="w1yx5qgn" class="accid">
-                              <use xlink:href="#E260-u1owl09p" transform="translate(4211, 4559) scale(0.72, 0.72)" />
+                              <use xlink:href="#E260-u1owl09p" transform="translate(4211, 4559) scale(0.72, 0.72)"/>
                            </g>
                            <g id="x1ythygi" class="verse">
                               <g id="y1h6c7nb" class="syl">
-                                 <text x="4298" y="5711" font-size="0px">
+                                 <text x="4298" y="5711" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="zh2w2pt" class="text">
-                                       <tspan font-size="450px">를</tspan>
+                                       <tspan font-size="630px">를</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -647,17 +647,17 @@
                         </g>
                         <g id="aat1zi3" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(5220, 4559) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(5220, 4559) scale(0.72, 0.72)"/>
                            </g>
                            <g id="f1ac1gva" class="stem">
-                              <path d="M5437 4531 L5437 3992" stroke-width="18" />
+                              <path d="M5437 4531 L5437 3992" stroke-width="18"/>
                            </g>
-                           <g id="bs4lcae" class="accid" />
+                           <g id="bs4lcae" class="accid"/>
                            <g id="cy1ezko" class="verse">
                               <g id="d146vgfb" class="syl">
-                                 <text x="5120" y="5711" font-size="0px">
+                                 <text x="5120" y="5711" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="e190u4yk" class="text">
-                                       <tspan font-size="450px">베</tspan>
+                                       <tspan font-size="630px">베</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -665,16 +665,16 @@
                         </g>
                         <g id="f1pfr243" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(6041, 4649) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(6041, 4649) scale(0.72, 0.72)"/>
                            </g>
                            <g id="g13j1jvs" class="stem">
-                              <path d="M6258 4621 L6258 3992" stroke-width="18" />
+                              <path d="M6258 4621 L6258 3992" stroke-width="18"/>
                            </g>
                            <g id="ge93xx2" class="verse">
                               <g id="h1trffmq" class="syl">
-                                 <text x="5941" y="5711" font-size="0px">
+                                 <text x="5941" y="5711" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="i1do1pd2" class="text">
-                                       <tspan font-size="450px">푸</tspan>
+                                       <tspan font-size="630px">푸</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -682,16 +682,16 @@
                         </g>
                         <g id="j3spryl" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(6863, 4739) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(6863, 4739) scale(0.72, 0.72)"/>
                            </g>
                            <g id="h1cdafrt" class="stem">
-                              <path d="M7080 4711 L7080 3992" stroke-width="18" />
+                              <path d="M7080 4711 L7080 3992" stroke-width="18"/>
                            </g>
                            <g id="k1nkqzma" class="verse">
                               <g id="l1fvftlb" class="syl">
-                                 <text x="6763" y="5711" font-size="0px">
+                                 <text x="6763" y="5711" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="m1ldntt" class="text">
-                                       <tspan font-size="450px">소</tspan>
+                                       <tspan font-size="630px">소</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -708,56 +708,56 @@
                   </text>
                </g>
                <g id="b1ucbyji" class="barLine">
-                  <path d="M7685 4199 L7685 4919" stroke-width="27" />
+                  <path d="M7685 4199 L7685 4919" stroke-width="27"/>
                </g>
             </g>
             <g id="n1k6w5o4" class="measure">
                <g id="w10q92vd" class="staff">
-                  <path d="M7698 4199 L12217 4199" stroke-width="13" />
-                  <path d="M7698 4379 L12217 4379" stroke-width="13" />
-                  <path d="M7698 4559 L12217 4559" stroke-width="13" />
-                  <path d="M7698 4739 L12217 4739" stroke-width="13" />
-                  <path d="M7698 4919 L12217 4919" stroke-width="13" />
+                  <path d="M7698 4199 L12217 4199" stroke-width="13"/>
+                  <path d="M7698 4379 L12217 4379" stroke-width="13"/>
+                  <path d="M7698 4559 L12217 4559" stroke-width="13"/>
+                  <path d="M7698 4739 L12217 4739" stroke-width="13"/>
+                  <path d="M7698 4919 L12217 4919" stroke-width="13"/>
                   <g id="zwnh2ey" class="layer">
                      <g id="airy9ao" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A3-u1owl09p" transform="translate(8027, 4829) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A3-u1owl09p" transform="translate(8027, 4829) scale(0.72, 0.72)"/>
                         </g>
                         <g id="j1y5yt1u" class="dots">
-                           <ellipse cx="8343" cy="4829" rx="36" ry="36" />
+                           <ellipse cx="8343" cy="4829" rx="36" ry="36"/>
                         </g>
                         <g id="iusq52a" class="stem">
-                           <path d="M8244 4801 L8244 4199" stroke-width="18" />
+                           <path d="M8244 4801 L8244 4199" stroke-width="18"/>
                         </g>
-                        <g id="b1k2lsqn" class="accid" />
+                        <g id="b1k2lsqn" class="accid"/>
                         <g id="cpn40er" class="verse">
                            <g id="d1qzg6lm" class="syl">
-                              <text x="7927" y="5711" font-size="0px">
+                              <text x="7927" y="5711" font-size="0px" transform=" translate(-90 0)">
                                  <tspan id="e1ckniv1" class="text">
-                                    <tspan font-size="450px">서</tspan>
+                                    <tspan font-size="630px">서</tspan>
                                  </tspan>
                               </text>
                            </g>
                         </g>
                      </g>
                      <g id="f1yut8cl" class="beam">
-                        <polygon points="10682,4019 11759,4109 11759,4199 10682,4109" />
-                        <polygon points="11533,4227 11759,4244 11759,4334 11533,4317" />
+                        <polygon points="10682,4019 11759,4109 11759,4199 10682,4109"/>
+                        <polygon points="11533,4227 11759,4244 11759,4334 11533,4317"/>
                         <g id="g1226p34" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(10474, 4649) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(10474, 4649) scale(0.72, 0.72)"/>
                            </g>
                            <g id="l10xjpjt" class="dots">
-                              <ellipse cx="10790" cy="4649" rx="36" ry="36" />
+                              <ellipse cx="10790" cy="4649" rx="36" ry="36"/>
                            </g>
                            <g id="kgcr199" class="stem">
-                              <path d="M10691 4621 L10691 4037" stroke-width="18" />
+                              <path d="M10691 4621 L10691 4037" stroke-width="18"/>
                            </g>
                            <g id="ho8xx2x" class="verse">
                               <g id="iu25moc" class="syl">
-                                 <text x="10374" y="5711" font-size="0px">
+                                 <text x="10374" y="5711" font-size="0px" transform=" translate(-180 0)">
                                     <tspan id="j1tv6ikg" class="text">
-                                       <tspan font-size="450px">그리</tspan>
+                                       <tspan font-size="630px">그리</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -765,16 +765,16 @@
                         </g>
                         <g id="k18hgynb" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(11533, 4739) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(11533, 4739) scale(0.72, 0.72)"/>
                            </g>
                            <g id="mappene" class="stem">
-                              <path d="M11750 4711 L11750 4127" stroke-width="18" />
+                              <path d="M11750 4711 L11750 4127" stroke-width="18"/>
                            </g>
                            <g id="l1r9c8d2" class="verse">
                               <g id="m165jdt4" class="syl">
-                                 <text x="11423" y="5711" font-size="0px">
+                                 <text x="11423" y="5711" font-size="0px" textLength="900" lengthAdjust="spacingAndGlyphs">
                                     <tspan id="nid5m7g" class="text">
-                                       <tspan font-size="450px">스도</tspan>
+                                       <tspan font-size="630px">스도</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -791,54 +791,54 @@
                   </text>
                </g>
                <g id="v1n5jurv" class="barLine">
-                  <path d="M12204 4199 L12204 4919" stroke-width="27" />
+                  <path d="M12204 4199 L12204 4919" stroke-width="27"/>
                </g>
             </g>
             <g id="o1e5lt3c" class="measure">
                <g id="xh4967i" class="staff">
-                  <path d="M12217 4199 L18660 4199" stroke-width="13" />
-                  <path d="M12217 4379 L18660 4379" stroke-width="13" />
-                  <path d="M12217 4559 L18660 4559" stroke-width="13" />
-                  <path d="M12217 4739 L18660 4739" stroke-width="13" />
-                  <path d="M12217 4919 L18660 4919" stroke-width="13" />
+                  <path d="M12217 4199 L18660 4199" stroke-width="13"/>
+                  <path d="M12217 4379 L18660 4379" stroke-width="13"/>
+                  <path d="M12217 4559 L18660 4559" stroke-width="13"/>
+                  <path d="M12217 4739 L18660 4739" stroke-width="13"/>
+                  <path d="M12217 4919 L18660 4919" stroke-width="13"/>
                   <g id="a15bvlmi" class="layer">
                      <g id="b13mq0a5" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A4-u1owl09p" transform="translate(12546, 4829) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A4-u1owl09p" transform="translate(12546, 4829) scale(0.72, 0.72)"/>
                         </g>
                         <g id="o3v0w7d" class="dots">
-                           <ellipse cx="12862" cy="4829" rx="36" ry="36" />
+                           <ellipse cx="12862" cy="4829" rx="36" ry="36"/>
                         </g>
                         <g id="n125tbks" class="stem">
-                           <path d="M12763 4801 L12763 4199" stroke-width="18" />
+                           <path d="M12763 4801 L12763 4199" stroke-width="18"/>
                         </g>
-                        <g id="c1a32rii" class="accid" />
+                        <g id="c1a32rii" class="accid"/>
                         <g id="d1syc3jm" class="verse">
                            <g id="e1tvp88d" class="syl">
-                              <text x="12446" y="5711" font-size="0px">
+                              <text x="12446" y="5711" font-size="0px" transform=" translate(-90 0)">
                                  <tspan id="fvcx1lo" class="text">
-                                    <tspan font-size="450px">님</tspan>
+                                    <tspan font-size="630px">님</tspan>
                                  </tspan>
                               </text>
                            </g>
                         </g>
                      </g>
                      <g id="g1hbe9bb" class="beam">
-                        <polygon points="14361,4199 14956,4109 14956,4199 14361,4289" />
-                        <polygon points="14361,4334 14956,4244 14956,4334 14361,4424" />
+                        <polygon points="14361,4199 14956,4109 14956,4199 14361,4289"/>
+                        <polygon points="14361,4334 14956,4244 14956,4334 14361,4424"/>
                         <g id="hjrvi1l" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(14153, 4829) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(14153, 4829) scale(0.72, 0.72)"/>
                            </g>
                            <g id="peizp14" class="stem">
-                              <path d="M14370 4801 L14370 4217" stroke-width="18" />
+                              <path d="M14370 4801 L14370 4217" stroke-width="18"/>
                            </g>
-                           <g id="ib91861" class="accid" />
+                           <g id="ib91861" class="accid"/>
                            <g id="jckrhoy" class="verse">
                               <g id="krlx4zc" class="syl">
-                                 <text x="14024" y="5711" font-size="0px">
+                                 <text x="14024" y="5711" font-size="0px" transform=" translate(-85 0)">
                                     <tspan id="l1cjjois" class="text">
-                                       <tspan font-size="450px">자</tspan>
+                                       <tspan font-size="630px">자</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -846,16 +846,16 @@
                         </g>
                         <g id="mgajl2g" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(14730, 4739) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(14730, 4739) scale(0.72, 0.72)"/>
                            </g>
                            <g id="q1vodd59" class="stem">
-                              <path d="M14947 4711 L14947 4127" stroke-width="18" />
+                              <path d="M14947 4711 L14947 4127" stroke-width="18"/>
                            </g>
                            <g id="n1i8af0y" class="verse">
                               <g id="ovkxjgs" class="syl">
-                                 <text x="14630" y="5711" font-size="0px">
+                                 <text x="14630" y="5711" font-size="0px" textLength="575.4998779296875" lengthAdjust="spacingAndGlyphs" transform=" translate(-62.750244140625 0)">
                                     <tspan id="p1sqcibu" class="text">
-                                       <tspan font-size="450px">비</tspan>
+                                       <tspan font-size="630px">비</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -863,19 +863,19 @@
                         </g>
                      </g>
                      <g id="q4z9pr" class="beam">
-                        <polygon points="15568,4019 18052,4019 18052,4109 15568,4109" />
+                        <polygon points="15568,4019 18052,4019 18052,4109 15568,4109"/>
                         <g id="riqwl4j" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(15360, 4649) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(15360, 4649) scale(0.72, 0.72)"/>
                            </g>
                            <g id="r1b1gx7p" class="stem">
-                              <path d="M15577 4621 L15577 4037" stroke-width="18" />
+                              <path d="M15577 4621 L15577 4037" stroke-width="18"/>
                            </g>
                            <g id="sz47vo" class="verse">
                               <g id="t1p1phy4" class="syl">
-                                 <text x="15260" y="5711" font-size="0px">
+                                 <text x="15260" y="5711" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="u4bntu2" class="text">
-                                       <tspan font-size="450px">를</tspan>
+                                       <tspan font-size="630px">를</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -883,16 +883,16 @@
                         </g>
                         <g id="v1qhfxug" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(16182, 4649) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(16182, 4649) scale(0.72, 0.72)"/>
                            </g>
                            <g id="s2mmmka" class="stem">
-                              <path d="M16399 4621 L16399 4037" stroke-width="18" />
+                              <path d="M16399 4621 L16399 4037" stroke-width="18"/>
                            </g>
                            <g id="whw1jdz" class="verse">
                               <g id="x1abst38" class="syl">
-                                 <text x="16082" y="5711" font-size="0px">
+                                 <text x="16082" y="5711" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="y10q37b0" class="text">
-                                       <tspan font-size="450px">베</tspan>
+                                       <tspan font-size="630px">베</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -900,16 +900,16 @@
                         </g>
                         <g id="z1vojifi" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(17004, 4739) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(17004, 4739) scale(0.72, 0.72)"/>
                            </g>
                            <g id="t49btf1" class="stem">
-                              <path d="M17221 4711 L17221 4037" stroke-width="18" />
+                              <path d="M17221 4711 L17221 4037" stroke-width="18"/>
                            </g>
                            <g id="a1v0vsk8" class="verse">
                               <g id="b1vwpwx6" class="syl">
-                                 <text x="16904" y="5711" font-size="0px">
+                                 <text x="16904" y="5711" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="c1ugb602" class="text">
-                                       <tspan font-size="450px">푸</tspan>
+                                       <tspan font-size="630px">푸</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -917,17 +917,17 @@
                         </g>
                         <g id="dk3yz21" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(17826, 4829) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(17826, 4829) scale(0.72, 0.72)"/>
                            </g>
                            <g id="u1facks" class="stem">
-                              <path d="M18043 4801 L18043 4037" stroke-width="18" />
+                              <path d="M18043 4801 L18043 4037" stroke-width="18"/>
                            </g>
-                           <g id="e1jllvd3" class="accid" />
+                           <g id="e1jllvd3" class="accid"/>
                            <g id="f131ce3h" class="verse">
                               <g id="gwkftxf" class="syl">
-                                 <text x="17726" y="5711" font-size="0px">
+                                 <text x="17726" y="5711" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="h13gfbvr" class="text">
-                                       <tspan font-size="450px">소</tspan>
+                                       <tspan font-size="630px">소</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -944,55 +944,55 @@
                   </text>
                </g>
                <g id="wt8miv3" class="barLine">
-                  <path d="M18647 4199 L18647 4919" stroke-width="27" />
+                  <path d="M18647 4199 L18647 4919" stroke-width="27"/>
                </g>
             </g>
             <g id="i1yxr3s7" class="measure">
                <g id="rfg9ez7" class="staff">
-                  <path d="M18660 4199 L23202 4199" stroke-width="13" />
-                  <path d="M18660 4379 L23202 4379" stroke-width="13" />
-                  <path d="M18660 4559 L23202 4559" stroke-width="13" />
-                  <path d="M18660 4739 L23202 4739" stroke-width="13" />
-                  <path d="M18660 4919 L23202 4919" stroke-width="13" />
+                  <path d="M18660 4199 L23202 4199" stroke-width="13"/>
+                  <path d="M18660 4379 L23202 4379" stroke-width="13"/>
+                  <path d="M18660 4559 L23202 4559" stroke-width="13"/>
+                  <path d="M18660 4739 L23202 4739" stroke-width="13"/>
+                  <path d="M18660 4919 L23202 4919" stroke-width="13"/>
                   <g id="w3a8tgc" class="layer">
                      <g id="xzu3v1l" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A3-u1owl09p" transform="translate(18989, 4919) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A3-u1owl09p" transform="translate(18989, 4919) scale(0.72, 0.72)"/>
                         </g>
                         <g id="w1ne068b" class="dots">
-                           <ellipse cx="19305" cy="4829" rx="36" ry="36" />
+                           <ellipse cx="19305" cy="4829" rx="36" ry="36"/>
                         </g>
                         <g id="vqrjdao" class="stem">
-                           <path d="M19206 4891 L19206 4289" stroke-width="18" />
+                           <path d="M19206 4891 L19206 4289" stroke-width="18"/>
                         </g>
                         <g id="yb3ncq4" class="verse">
                            <g id="z1bsppmq" class="syl">
-                              <text x="18889" y="5711" font-size="0px">
+                              <text x="18889" y="5711" font-size="0px" transform=" translate(-90 0)">
                                  <tspan id="aglrq08" class="text">
-                                    <tspan font-size="450px">서</tspan>
+                                    <tspan font-size="630px">서</tspan>
                                  </tspan>
                               </text>
                            </g>
                         </g>
                      </g>
                      <g id="b1vdpph5" class="rest">
-                        <use xlink:href="#E4E6-u1owl09p" transform="translate(21436, 4559) scale(0.72, 0.72)" />
+                        <use xlink:href="#E4E6-u1owl09p" transform="translate(21436, 4559) scale(0.72, 0.72)"/>
                      </g>
                      <g id="cmb6ciu" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A4-u1owl09p" transform="translate(22258, 4919) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A4-u1owl09p" transform="translate(22258, 4919) scale(0.72, 0.72)"/>
                         </g>
                         <g id="xj7ovsz" class="stem">
-                           <path d="M22475 4891 L22475 4289" stroke-width="18" />
+                           <path d="M22475 4891 L22475 4289" stroke-width="18"/>
                            <g id="ytc4io8" class="flag">
-                              <use xlink:href="#E240-u1owl09p" transform="translate(22466, 4289) scale(0.72, 0.72)" />
+                              <use xlink:href="#E240-u1owl09p" transform="translate(22466, 4289) scale(0.72, 0.72)"/>
                            </g>
                         </g>
                         <g id="dvtbuxb" class="verse">
                            <g id="e1dt3xc2" class="syl">
-                              <text x="22158" y="5711" font-size="0px">
+                              <text x="22158" y="5711" font-size="0px" transform=" translate(-90 0)">
                                  <tspan id="futz4t9" class="text">
-                                    <tspan font-size="450px">주</tspan>
+                                    <tspan font-size="630px">주</tspan>
                                  </tspan>
                               </text>
                            </g>
@@ -1015,12 +1015,12 @@
                   </text>
                </g>
                <g id="q13nhvuk" class="barLine">
-                  <path d="M23189 4199 L23189 4919" stroke-width="27" />
+                  <path d="M23189 4199 L23189 4919" stroke-width="27"/>
                </g>
             </g>
          </g>
          <g id="iv0olmb" class="system">
-            <g id="q19bhiaf" class="sb" />
+            <g id="q19bhiaf" class="sb"/>
             <g id="g868xmo" class="measure">
                <g id="xokhctz" class="mNum autogenerated">
                   <text y="7474" text-anchor="middle" font-size="0px">
@@ -1030,55 +1030,55 @@
                   </text>
                </g>
                <g id="p1jsk16p" class="staff">
-                  <path d="M0 7744 L7516 7744" stroke-width="13" />
-                  <path d="M0 7924 L7516 7924" stroke-width="13" />
-                  <path d="M0 8104 L7516 8104" stroke-width="13" />
-                  <path d="M0 8284 L7516 8284" stroke-width="13" />
-                  <path d="M0 8464 L7516 8464" stroke-width="13" />
+                  <path d="M0 7744 L7516 7744" stroke-width="13"/>
+                  <path d="M0 7924 L7516 7924" stroke-width="13"/>
+                  <path d="M0 8104 L7516 8104" stroke-width="13"/>
+                  <path d="M0 8284 L7516 8284" stroke-width="13"/>
+                  <path d="M0 8464 L7516 8464" stroke-width="13"/>
                   <g id="h1ok1rag" class="clef">
-                     <use xlink:href="#E050-u1owl09p" transform="translate(90, 8284) scale(0.72, 0.72)" />
+                     <use xlink:href="#E050-u1owl09p" transform="translate(90, 8284) scale(0.72, 0.72)"/>
                   </g>
                   <g id="iqsmymg" class="keySig">
                      <g id="jkrojw8" class="keyAccid">
-                        <use xlink:href="#E262-u1owl09p" transform="translate(735, 7744) scale(0.72, 0.72)" />
+                        <use xlink:href="#E262-u1owl09p" transform="translate(735, 7744) scale(0.72, 0.72)"/>
                      </g>
                   </g>
                   <g id="vhzirkn" class="layer">
                      <g id="wvv5sxn" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A4-u1owl09p" transform="translate(1301, 8014) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A4-u1owl09p" transform="translate(1301, 8014) scale(0.72, 0.72)"/>
                         </g>
                         <g id="a1o3wmys" class="dots">
-                           <ellipse cx="1617" cy="8014" rx="36" ry="36" />
+                           <ellipse cx="1617" cy="8014" rx="36" ry="36"/>
                         </g>
                         <g id="z3yzmdt" class="stem">
-                           <path d="M1310 8042 L1310 8644" stroke-width="18" />
+                           <path d="M1310 8042 L1310 8644" stroke-width="18"/>
                         </g>
                         <g id="x1j9d4dk" class="verse">
                            <g id="yx1b9gx" class="syl">
-                              <text x="1201" y="9256" font-size="0px">
+                              <text x="1201" y="9256" font-size="0px" transform=" translate(-90 0)">
                                  <tspan id="z3o2m4v" class="text">
-                                    <tspan font-size="450px">님</tspan>
+                                    <tspan font-size="630px">님</tspan>
                                  </tspan>
                               </text>
                            </g>
                         </g>
                      </g>
                      <g id="aquemm4" class="beam">
-                        <polygon points="2934,8644 3539,8734 3539,8644 2934,8554" />
-                        <polygon points="2934,8509 3539,8599 3539,8509 2934,8419" />
+                        <polygon points="2934,8644 3539,8734 3539,8644 2934,8554"/>
+                        <polygon points="2934,8509 3539,8599 3539,8509 2934,8419"/>
                         <g id="bjt0k5c" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(2934, 8014) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(2934, 8014) scale(0.72, 0.72)"/>
                            </g>
                            <g id="b18rq7nr" class="stem">
-                              <path d="M2943 8042 L2943 8626" stroke-width="18" />
+                              <path d="M2943 8042 L2943 8626" stroke-width="18"/>
                            </g>
                            <g id="c1ly9mwq" class="verse">
                               <g id="d14by8x2" class="syl">
-                                 <text x="2805" y="9256" font-size="0px">
+                                 <text x="2805" y="9256" font-size="0px" transform=" translate(-85 0)">
                                     <tspan id="epy7dn0" class="text">
-                                       <tspan font-size="450px">자</tspan>
+                                       <tspan font-size="630px">자</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -1086,16 +1086,16 @@
                         </g>
                         <g id="f10ghl2f" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(3521, 8104) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(3521, 8104) scale(0.72, 0.72)"/>
                            </g>
                            <g id="c1yeelyn" class="stem">
-                              <path d="M3530 8132 L3530 8716" stroke-width="18" />
+                              <path d="M3530 8132 L3530 8716" stroke-width="18"/>
                            </g>
                            <g id="g1nnzq4u" class="verse">
                               <g id="h1do6210" class="syl">
-                                 <text x="3421" y="9256" font-size="0px">
+                                 <text x="3421" y="9256" font-size="0px" textLength="586.0000610351562" lengthAdjust="spacingAndGlyphs" transform=" translate(-68.00003051757812 0)">
                                     <tspan id="i12q45ub" class="text">
-                                       <tspan font-size="450px">비</tspan>
+                                       <tspan font-size="630px">비</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -1103,19 +1103,19 @@
                         </g>
                      </g>
                      <g id="j113gxhk" class="beam">
-                        <polygon points="4162,8734 6686,8734 6686,8644 4162,8644" />
+                        <polygon points="4162,8734 6686,8734 6686,8644 4162,8644"/>
                         <g id="k9pgq81" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(4162, 8194) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(4162, 8194) scale(0.72, 0.72)"/>
                            </g>
                            <g id="d1lrd3qg" class="stem">
-                              <path d="M4171 8222 L4171 8716" stroke-width="18" />
+                              <path d="M4171 8222 L4171 8716" stroke-width="18"/>
                            </g>
                            <g id="llxzhgo" class="verse">
                               <g id="m1mawt5t" class="syl">
-                                 <text x="4062" y="9256" font-size="0px">
+                                 <text x="4062" y="9256" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="ni6o4j9" class="text">
-                                       <tspan font-size="450px">를</tspan>
+                                       <tspan font-size="630px">를</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -1123,16 +1123,16 @@
                         </g>
                         <g id="o1mv0kwn" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(4997, 8194) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(4997, 8194) scale(0.72, 0.72)"/>
                            </g>
                            <g id="e1ocsez6" class="stem">
-                              <path d="M5006 8222 L5006 8716" stroke-width="18" />
+                              <path d="M5006 8222 L5006 8716" stroke-width="18"/>
                            </g>
                            <g id="p1keirpt" class="verse">
                               <g id="q1xx161p" class="syl">
-                                 <text x="4897" y="9256" font-size="0px">
+                                 <text x="4897" y="9256" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="r1iz9kyp" class="text">
-                                       <tspan font-size="450px">베</tspan>
+                                       <tspan font-size="630px">베</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -1140,16 +1140,16 @@
                         </g>
                         <g id="s1ck566j" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(5832, 8104) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(5832, 8104) scale(0.72, 0.72)"/>
                            </g>
                            <g id="f16jgkn8" class="stem">
-                              <path d="M5841 8132 L5841 8716" stroke-width="18" />
+                              <path d="M5841 8132 L5841 8716" stroke-width="18"/>
                            </g>
                            <g id="tjafqlm" class="verse">
                               <g id="u1b76fqc" class="syl">
-                                 <text x="5732" y="9256" font-size="0px">
+                                 <text x="5732" y="9256" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="v7duppp" class="text">
-                                       <tspan font-size="450px">푸</tspan>
+                                       <tspan font-size="630px">푸</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -1157,16 +1157,16 @@
                         </g>
                         <g id="w1ij22f5" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(6668, 8014) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(6668, 8014) scale(0.72, 0.72)"/>
                            </g>
                            <g id="g6nshnn" class="stem">
-                              <path d="M6677 8042 L6677 8716" stroke-width="18" />
+                              <path d="M6677 8042 L6677 8716" stroke-width="18"/>
                            </g>
                            <g id="x1heh2o4" class="verse">
                               <g id="y4u24tw" class="syl">
-                                 <text x="6568" y="9256" font-size="0px">
+                                 <text x="6568" y="9256" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="z10g1yru" class="text">
-                                       <tspan font-size="450px">소</tspan>
+                                       <tspan font-size="630px">소</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -1190,29 +1190,29 @@
                   </text>
                </g>
                <g id="ovovcuj" class="barLine">
-                  <path d="M7503 7744 L7503 8464" stroke-width="27" />
+                  <path d="M7503 7744 L7503 8464" stroke-width="27"/>
                </g>
             </g>
             <g id="a1panmmd" class="measure">
                <g id="j1dv3ohr" class="staff">
-                  <path d="M7516 7744 L12436 7744" stroke-width="13" />
-                  <path d="M7516 7924 L12436 7924" stroke-width="13" />
-                  <path d="M7516 8104 L12436 8104" stroke-width="13" />
-                  <path d="M7516 8284 L12436 8284" stroke-width="13" />
-                  <path d="M7516 8464 L12436 8464" stroke-width="13" />
+                  <path d="M7516 7744 L12436 7744" stroke-width="13"/>
+                  <path d="M7516 7924 L12436 7924" stroke-width="13"/>
+                  <path d="M7516 8104 L12436 8104" stroke-width="13"/>
+                  <path d="M7516 8284 L12436 8284" stroke-width="13"/>
+                  <path d="M7516 8464 L12436 8464" stroke-width="13"/>
                   <g id="q1v3ip0a" class="layer">
                      <g id="rxethow" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A3-u1owl09p" transform="translate(7851, 8104) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A3-u1owl09p" transform="translate(7851, 8104) scale(0.72, 0.72)"/>
                         </g>
                         <g id="hwia17m" class="stem">
-                           <path d="M7860 8129 L7860 8704" stroke-width="18" />
+                           <path d="M7860 8129 L7860 8704" stroke-width="18"/>
                         </g>
                         <g id="s1g8mnln" class="verse">
                            <g id="t1a4fhqo" class="syl">
-                              <text x="7751" y="9256" font-size="0px">
+                              <text x="7751" y="9256" font-size="0px" transform=" translate(-90 0)">
                                  <tspan id="uk8fu56" class="text">
-                                    <tspan font-size="450px">서</tspan>
+                                    <tspan font-size="630px">서</tspan>
                                  </tspan>
                               </text>
                            </g>
@@ -1220,19 +1220,19 @@
                      </g>
                      <g id="vi1e9zi" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A4-u1owl09p" transform="translate(9800, 8284) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A4-u1owl09p" transform="translate(9800, 8284) scale(0.72, 0.72)"/>
                         </g>
                         <g id="j1ghbznv" class="dots">
-                           <ellipse cx="10116" cy="8194" rx="36" ry="36" />
+                           <ellipse cx="10116" cy="8194" rx="36" ry="36"/>
                         </g>
                         <g id="i14with" class="stem">
-                           <path d="M10017 8256 L10017 7654" stroke-width="18" />
+                           <path d="M10017 8256 L10017 7654" stroke-width="18"/>
                         </g>
                         <g id="w12sa0r0" class="verse">
                            <g id="x1dn5ujk" class="syl">
-                              <text x="9700" y="9256" font-size="0px">
+                              <text x="9700" y="9256" font-size="0px" transform=" translate(-36.875 0)">
                                  <tspan id="y4sgf9j" class="text">
-                                    <tspan font-size="450px">-</tspan>
+                                    <tspan font-size="630px">-</tspan>
                                  </tspan>
                               </text>
                            </g>
@@ -1240,19 +1240,19 @@
                      </g>
                      <g id="z16u0n97" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A4-u1owl09p" transform="translate(11434, 8464) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A4-u1owl09p" transform="translate(11434, 8464) scale(0.72, 0.72)"/>
                         </g>
                         <g id="k1ix5dd8" class="stem">
-                           <path d="M11651 8436 L11651 7834" stroke-width="18" />
+                           <path d="M11651 8436 L11651 7834" stroke-width="18"/>
                            <g id="l17bmk2f" class="flag">
-                              <use xlink:href="#E240-u1owl09p" transform="translate(11642, 7834) scale(0.72, 0.72)" />
+                              <use xlink:href="#E240-u1owl09p" transform="translate(11642, 7834) scale(0.72, 0.72)"/>
                            </g>
                         </g>
                         <g id="a1vxb6ey" class="verse">
                            <g id="b1mrn7gh" class="syl">
-                              <text x="11334" y="9256" font-size="0px">
+                              <text x="11334" y="9256" font-size="0px" transform=" translate(-90 0)">
                                  <tspan id="csi4pc1" class="text">
-                                    <tspan font-size="450px">주</tspan>
+                                    <tspan font-size="630px">주</tspan>
                                  </tspan>
                               </text>
                            </g>
@@ -1282,54 +1282,54 @@
                   </text>
                </g>
                <g id="izgfccr" class="barLine">
-                  <path d="M12423 7744 L12423 8464" stroke-width="27" />
+                  <path d="M12423 7744 L12423 8464" stroke-width="27"/>
                </g>
             </g>
             <g id="dxdrso6" class="measure">
                <g id="m1pku7xg" class="staff">
-                  <path d="M12436 7744 L18986 7744" stroke-width="13" />
-                  <path d="M12436 7924 L18986 7924" stroke-width="13" />
-                  <path d="M12436 8104 L18986 8104" stroke-width="13" />
-                  <path d="M12436 8284 L18986 8284" stroke-width="13" />
-                  <path d="M12436 8464 L18986 8464" stroke-width="13" />
+                  <path d="M12436 7744 L18986 7744" stroke-width="13"/>
+                  <path d="M12436 7924 L18986 7924" stroke-width="13"/>
+                  <path d="M12436 8104 L18986 8104" stroke-width="13"/>
+                  <path d="M12436 8284 L18986 8284" stroke-width="13"/>
+                  <path d="M12436 8464 L18986 8464" stroke-width="13"/>
                   <g id="rdw2kve" class="layer">
                      <g id="s1rok2j2" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A4-u1owl09p" transform="translate(12771, 8374) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A4-u1owl09p" transform="translate(12771, 8374) scale(0.72, 0.72)"/>
                         </g>
                         <g id="n1nltvx9" class="dots">
-                           <ellipse cx="13087" cy="8374" rx="36" ry="36" />
+                           <ellipse cx="13087" cy="8374" rx="36" ry="36"/>
                         </g>
                         <g id="mxbj69h" class="stem">
-                           <path d="M12988 8346 L12988 7744" stroke-width="18" />
+                           <path d="M12988 8346 L12988 7744" stroke-width="18"/>
                         </g>
-                        <g id="tebejq" class="accid" />
+                        <g id="tebejq" class="accid"/>
                         <g id="uk77wl3" class="verse">
                            <g id="v17wcrxg" class="syl">
-                              <text x="12671" y="9256" font-size="0px">
+                              <text x="12671" y="9256" font-size="0px" transform=" translate(-90 0)">
                                  <tspan id="w1gxin5t" class="text">
-                                    <tspan font-size="450px">님</tspan>
+                                    <tspan font-size="630px">님</tspan>
                                  </tspan>
                               </text>
                            </g>
                         </g>
                      </g>
                      <g id="x16keev3" class="beam">
-                        <polygon points="14612,7744 15217,7654 15217,7744 14612,7834" />
-                        <polygon points="14612,7879 15217,7789 15217,7879 14612,7969" />
+                        <polygon points="14612,7744 15217,7654 15217,7744 14612,7834"/>
+                        <polygon points="14612,7879 15217,7789 15217,7879 14612,7969"/>
                         <g id="y1rex29x" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(14404, 8374) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(14404, 8374) scale(0.72, 0.72)"/>
                            </g>
                            <g id="oh4szpd" class="stem">
-                              <path d="M14621 8346 L14621 7762" stroke-width="18" />
+                              <path d="M14621 8346 L14621 7762" stroke-width="18"/>
                            </g>
-                           <g id="zo33fk9" class="accid" />
+                           <g id="zo33fk9" class="accid"/>
                            <g id="a1voqq5v" class="verse">
                               <g id="bono25o" class="syl">
-                                 <text x="14275" y="9256" font-size="0px">
+                                 <text x="14275" y="9256" font-size="0px" transform=" translate(-85 0)">
                                     <tspan id="c1pzyza3" class="text">
-                                       <tspan font-size="450px">자</tspan>
+                                       <tspan font-size="630px">자</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -1337,16 +1337,16 @@
                         </g>
                         <g id="dnmp1jw" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(14991, 8284) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(14991, 8284) scale(0.72, 0.72)"/>
                            </g>
                            <g id="p1uq1lni" class="stem">
-                              <path d="M15208 8256 L15208 7672" stroke-width="18" />
+                              <path d="M15208 8256 L15208 7672" stroke-width="18"/>
                            </g>
                            <g id="e1wqu1cz" class="verse">
                               <g id="f1flf6o4" class="syl">
-                                 <text x="14891" y="9256" font-size="0px">
+                                 <text x="14891" y="9256" font-size="0px" textLength="586.0003662109375" lengthAdjust="spacingAndGlyphs" transform=" translate(-67.9998779296875 0)">
                                     <tspan id="g1s5yrgx" class="text">
-                                       <tspan font-size="450px">비</tspan>
+                                       <tspan font-size="630px">비</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -1354,19 +1354,19 @@
                         </g>
                      </g>
                      <g id="h12rl00v" class="beam">
-                        <polygon points="15840,7564 18364,7564 18364,7654 15840,7654" />
+                        <polygon points="15840,7564 18364,7564 18364,7654 15840,7654"/>
                         <g id="iurzfb7" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(15632, 8194) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(15632, 8194) scale(0.72, 0.72)"/>
                            </g>
                            <g id="q6tib70" class="stem">
-                              <path d="M15849 8166 L15849 7582" stroke-width="18" />
+                              <path d="M15849 8166 L15849 7582" stroke-width="18"/>
                            </g>
                            <g id="j11ydj2o" class="verse">
                               <g id="kcwln03" class="syl">
-                                 <text x="15532" y="9256" font-size="0px">
+                                 <text x="15532" y="9256" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="l1f8a5up" class="text">
-                                       <tspan font-size="450px">를</tspan>
+                                       <tspan font-size="630px">를</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -1374,16 +1374,16 @@
                         </g>
                         <g id="m12ssi1t" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(16467, 8194) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(16467, 8194) scale(0.72, 0.72)"/>
                            </g>
                            <g id="r1u1o5hy" class="stem">
-                              <path d="M16684 8166 L16684 7582" stroke-width="18" />
+                              <path d="M16684 8166 L16684 7582" stroke-width="18"/>
                            </g>
                            <g id="n1cewkv8" class="verse">
                               <g id="o100swgk" class="syl">
-                                 <text x="16367" y="9256" font-size="0px">
+                                 <text x="16367" y="9256" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="p1svz8d5" class="text">
-                                       <tspan font-size="450px">베</tspan>
+                                       <tspan font-size="630px">베</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -1391,16 +1391,16 @@
                         </g>
                         <g id="qby3vfh" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(17302, 8284) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(17302, 8284) scale(0.72, 0.72)"/>
                            </g>
                            <g id="s1detb2u" class="stem">
-                              <path d="M17519 8256 L17519 7582" stroke-width="18" />
+                              <path d="M17519 8256 L17519 7582" stroke-width="18"/>
                            </g>
                            <g id="riazlu2" class="verse">
                               <g id="sugx43j" class="syl">
-                                 <text x="17202" y="9256" font-size="0px">
+                                 <text x="17202" y="9256" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="t1c84ok3" class="text">
-                                       <tspan font-size="450px">푸</tspan>
+                                       <tspan font-size="630px">푸</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -1408,17 +1408,17 @@
                         </g>
                         <g id="u9782j6" class="note">
                            <g class="notehead">
-                              <use xlink:href="#E0A4-u1owl09p" transform="translate(18138, 8374) scale(0.72, 0.72)" />
+                              <use xlink:href="#E0A4-u1owl09p" transform="translate(18138, 8374) scale(0.72, 0.72)"/>
                            </g>
                            <g id="taabtki" class="stem">
-                              <path d="M18355 8346 L18355 7582" stroke-width="18" />
+                              <path d="M18355 8346 L18355 7582" stroke-width="18"/>
                            </g>
-                           <g id="vszy636" class="accid" />
+                           <g id="vszy636" class="accid"/>
                            <g id="w1ks55iz" class="verse">
                               <g id="x1am2d9k" class="syl">
-                                 <text x="18038" y="9256" font-size="0px">
+                                 <text x="18038" y="9256" font-size="0px" transform=" translate(-90 0)">
                                     <tspan id="yhwrvjx" class="text">
-                                       <tspan font-size="450px">소</tspan>
+                                       <tspan font-size="630px">소</tspan>
                                     </tspan>
                                  </text>
                               </g>
@@ -1442,32 +1442,32 @@
                   </text>
                </g>
                <g id="lppxcv1" class="barLine">
-                  <path d="M18973 7744 L18973 8464" stroke-width="27" />
+                  <path d="M18973 7744 L18973 8464" stroke-width="27"/>
                </g>
             </g>
             <g id="z1aq9gp2" class="measure">
                <g id="ie93vmb" class="staff">
-                  <path d="M18986 7744 L23201 7744" stroke-width="13" />
-                  <path d="M18986 7924 L23201 7924" stroke-width="13" />
-                  <path d="M18986 8104 L23201 8104" stroke-width="13" />
-                  <path d="M18986 8284 L23201 8284" stroke-width="13" />
-                  <path d="M18986 8464 L23201 8464" stroke-width="13" />
+                  <path d="M18986 7744 L23201 7744" stroke-width="13"/>
+                  <path d="M18986 7924 L23201 7924" stroke-width="13"/>
+                  <path d="M18986 8104 L23201 8104" stroke-width="13"/>
+                  <path d="M18986 8284 L23201 8284" stroke-width="13"/>
+                  <path d="M18986 8464 L23201 8464" stroke-width="13"/>
                   <g id="n1lpy8ub" class="layer">
                      <g id="onr9zl8" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A3-u1owl09p" transform="translate(19321, 8464) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A3-u1owl09p" transform="translate(19321, 8464) scale(0.72, 0.72)"/>
                         </g>
                         <g id="vxrmk2s" class="dots">
-                           <ellipse cx="19637" cy="8374" rx="36" ry="36" />
+                           <ellipse cx="19637" cy="8374" rx="36" ry="36"/>
                         </g>
                         <g id="ub8yej0" class="stem">
-                           <path d="M19538 8436 L19538 7834" stroke-width="18" />
+                           <path d="M19538 8436 L19538 7834" stroke-width="18"/>
                         </g>
                         <g id="powpcwr" class="verse">
                            <g id="qv5jmir" class="syl">
-                              <text x="19221" y="9256" font-size="0px">
+                              <text x="19221" y="9256" font-size="0px" transform=" translate(-90 0)">
                                  <tspan id="r6u5lxv" class="text">
-                                    <tspan font-size="450px">서</tspan>
+                                    <tspan font-size="630px">서</tspan>
                                  </tspan>
                               </text>
                            </g>
@@ -1475,10 +1475,10 @@
                      </g>
                      <g id="t8wpne7" class="note">
                         <g class="notehead">
-                           <use xlink:href="#E0A4-u1owl09p" transform="translate(21808, 8464) scale(0.72, 0.72)" />
+                           <use xlink:href="#E0A4-u1owl09p" transform="translate(21808, 8464) scale(0.72, 0.72)"/>
                         </g>
                         <g id="w758uug" class="stem">
-                           <path d="M22025 8436 L22025 7834" stroke-width="18" />
+                           <path d="M22025 8436 L22025 7834" stroke-width="18"/>
                         </g>
                      </g>
                   </g>
@@ -1498,18 +1498,18 @@
                   </text>
                </g>
                <g id="s1jz87ib" class="tie">
-                  <path d="M19592,8509 C20136,8616 21215,8616 21763,8509 C21220,8664 20131,8664 19592,8509" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M19592,8509 C20136,8616 21215,8616 21763,8509 C21220,8664 20131,8664 19592,8509" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
                </g>
                <g id="h1iofn85" class="barLine">
-                  <path d="M23089 7744 L23089 8464" stroke-width="27" />
-                  <path d="M23188 7744 L23188 8464" stroke-width="27" />
+                  <path d="M23089 7744 L23089 8464" stroke-width="27"/>
+                  <path d="M23188 7744 L23188 8464" stroke-width="27"/>
                </g>
             </g>
-            <g id="dfse75h" class="systemMilestoneEnd umcmf6m" />
-            <g id="ecopgal" class="systemMilestoneEnd h1b002we" />
+            <g id="dfse75h" class="systemMilestoneEnd umcmf6m"/>
+            <g id="ecopgal" class="systemMilestoneEnd h1b002we"/>
          </g>
-         <g id="f11jl9pb" class="pageMilestoneEnd f150xq09" />
-         <g id="g17yjza0" class="pageMilestoneEnd ewbnwgh" />
+         <g id="f11jl9pb" class="pageMilestoneEnd f150xq09"/>
+         <g id="g17yjza0" class="pageMilestoneEnd ewbnwgh"/>
       </g>
    </svg>
 </svg>
