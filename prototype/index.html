@@ -552,12 +552,14 @@
  .reader__workspace.is-toc-collapsed { grid-template-columns:minmax(0,1fr); }
  .reader__workspace.is-toc-collapsed .reader__book { grid-column:1; }
 
- .reader { height: 100dvh; display: grid; grid-template-rows: auto minmax(0, 1fr); padding-block-start: calc(var(--reader-system-space-4) + env(safe-area-inset-top, 24px)); padding-block-end: max(var(--reader-system-space-4), env(safe-area-inset-bottom, 0px)); padding-inline: max(var(--reader-system-space-6), calc(var(--reader-system-space-4) + env(safe-area-inset-left, 0px))); gap: var(--reader-gap); box-sizing: border-box; }
+ .reader { height: 100dvh; display: grid; grid-template-rows: auto minmax(0, 1fr); padding-block-start: calc(var(--reader-system-space-6) + env(safe-area-inset-top, 0px)); padding-block-end: max(var(--reader-system-space-2), env(safe-area-inset-bottom, 0px)); padding-inline: max(var(--reader-system-space-6), calc(var(--reader-system-space-4) + env(safe-area-inset-left, 0px))); gap: var(--reader-gap); box-sizing: border-box; }
  .reader[data-orientation="portrait"] { inline-size:100%; block-size:100dvh; margin-inline: auto; }
  .reader[data-orientation="landscape"] { inline-size: 100%; block-size: 100dvh; margin-inline: auto; }
  .reader__header, .reader__row, .reader__footer { display: flex; align-items: center; flex-wrap: wrap; gap: var(--reader-gap); }
  .reader__header, .reader__footer { justify-content: space-between; }
  .reader__header--navigation { display:flex; flex-wrap:wrap; grid-template-columns:auto minmax(0,1fr) auto; align-items:center; gap:var(--reader-system-space-2); overflow-x:auto; }
+ .reader__resource-label-full { display:none; }
+ .reader__resource-label-short { display:inline; }
  .reader__header-tools { justify-self:end; margin-inline-start:auto; }
 
  .reader__header-group { display: flex; flex-wrap: nowrap; align-items: center; gap: var(--reader-header-gap); white-space: nowrap; flex-shrink: 0; }
@@ -571,7 +573,7 @@
  .reader__title { font-size:var(--reader-system-type-part); line-height:var(--reader-system-leading-heading); font-weight:var(--reader-system-weight-heading); color: var(--reader-theme-accent); margin: 0; grid-column: 1 / -1; grid-row: 1; text-align: center; }
  .reader__brand { font-size: var(--reader-brand-size); }
  .reader__notice { margin: 0; }
- .reader__workspace { min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr) auto; gap: var(--reader-gap); }
+ .reader__workspace { min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr) auto; column-gap: var(--reader-gap); row-gap:var(--reader-system-space-2); }
  .reader__rail { display:none; grid-column: 2; grid-row: 2; min-height: 0; max-width: 100%; overflow:auto; overflow-wrap:anywhere; border:0; padding-inline:var(--reader-system-space-2); border-radius:var(--reader-radius); scrollbar-gutter:stable; }
 
  .reader__toc-group-title { font-size:var(--reader-system-toc-size); line-height:var(--reader-system-toc-leading); color:var(--reader-theme-ink); font-weight:700; margin-block:var(--reader-system-space-4) var(--reader-system-space-2); }
@@ -600,7 +602,7 @@
  .reader__turns { grid-column: 1; grid-row: 3; display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); grid-template-rows:auto; align-items: center; gap: var(--reader-gap); }
  .reader__turn-button { min-inline-size: 0; max-inline-size: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; justify-self: start; }
  .reader__turn-boundary { justify-self: end; }
- .reader__drawer { overflow:auto; --button-hit:var(--reader-system-button-main-hit); --button-leading:var(--reader-system-button-line); --button-padding-block:var(--reader-system-space-2); }
+ .reader__drawer { overflow:hidden; --button-hit:var(--reader-system-button-main-hit); --button-leading:var(--reader-system-button-line); --button-padding-block:var(--reader-system-space-2); }
  .reader__field { display:grid; gap:var(--reader-system-space-2); margin-block:var(--reader-system-space-4); }
 
 }
@@ -704,7 +706,7 @@
  .reader__menu-toggle .reader__icon { inline-size:var(--reader-system-space-6); block-size:var(--reader-system-space-6); }
  .reader[data-orientation="portrait"] .reader__header--navigation { grid-template-columns:auto minmax(0,1fr) auto; gap:var(--reader-header-gap); font-size:var(--reader-header-compact-size); }
  .reader[data-orientation="portrait"] .reader__header-controls { grid-column:2; grid-row:1; flex-wrap:wrap; white-space:normal; }
- .reader[data-orientation="portrait"] .reader__header-tools { display: none; }
+ .reader[data-orientation="portrait"] .reader__header-tools { display:flex; margin-inline-start:auto; }
  .reader[data-orientation="portrait"] .reader__menu-toggle { display:grid; place-items:center; flex-shrink:0; }
  .reader__staff { display: block; width: 100%; height: var(--reader-score-height); }
  .reader__toc-link { display:block; min-block-size:var(--reader-system-toc-hit); padding:var(--reader-system-space-1) var(--reader-system-space-2); font-family:var(--reader-ui-font); font-size:var(--reader-system-toc-size); line-height:var(--reader-system-toc-leading); color:var(--reader-theme-ink); text-decoration:none; border-radius:var(--reader-radius); overflow-wrap:anywhere; }
@@ -713,7 +715,7 @@
  .reader__toc-visible--first { border-start-start-radius:var(--reader-radius); border-start-end-radius:var(--reader-radius); }
  .reader__toc-visible--last { border-end-start-radius:var(--reader-radius); border-end-end-radius:var(--reader-radius); }
  .reader__toc-link:hover { background:var(--reader-system-toc-current); }
- .reader__tools .missa-button { --button-padding-inline:var(--reader-system-space-1); --button-font-size:var(--reader-system-type-note); inline-size:var(--reader-system-button-main-hit); }
+ .reader__tools .missa-button { --button-padding-inline:var(--reader-system-space-1); --button-font-size:var(--reader-system-type-note); inline-size:var(--reader-system-button-action-hit); min-block-size:var(--reader-system-button-action-hit); }
  .reader__icon { display:block; inline-size:var(--reader-system-icon-size); block-size:var(--reader-system-icon-size); fill:none; stroke:currentColor; stroke-width:1.75; stroke-linecap:round; stroke-linejoin:round; }
  .reader__icon-button { --button-padding-inline:var(--reader-system-space-2); inline-size:var(--reader-system-button-main-hit); display:grid; place-items:center; }
  .reader__toc-major { display:none; word-break:keep-all; overflow-wrap:normal; }
@@ -768,7 +770,7 @@
 @layer components {
  .reader__page-body { position:relative; isolation:isolate; flex:1; min-block-size:0; overflow:hidden; }
  .reader__page-body > .reader__page-scroll { block-size:100%; overscroll-behavior:contain; }
- .reader__scroll-edge { position:absolute; inset-inline:0; block-size:var(--reader-system-space-8); z-index:var(--reader-system-score-overlay-z); pointer-events:none; opacity:0; backdrop-filter:blur(var(--reader-scroll-blur)); -webkit-backdrop-filter:blur(var(--reader-scroll-blur)); }
+ .reader__scroll-edge { position:absolute; inset-inline:0; block-size:var(--reader-system-space-8); z-index:var(--reader-system-score-overlay-z); pointer-events:none; opacity:0; }
  .reader__scroll-edge--top { inset-block-start:0; background:linear-gradient(to bottom,var(--reader-theme-surface),transparent); mask-image:linear-gradient(to bottom,black,transparent); -webkit-mask-image:linear-gradient(to bottom,black,transparent); }
  .reader__scroll-edge--bottom { inset-block-end:0; background:linear-gradient(to top,var(--reader-theme-surface),transparent); mask-image:linear-gradient(to top,black,transparent); -webkit-mask-image:linear-gradient(to top,black,transparent); }
  .reader__page-body[data-scroll-top="true"] > .reader__scroll-edge--top,.reader__page-body[data-scroll-bottom="true"] > .reader__scroll-edge--bottom { opacity:1; }
@@ -780,6 +782,8 @@
   .reader__score-fit-label select { flex:initial; }
   .reader__header--navigation { display:grid; }
   .reader__header-controls { order:initial; flex-basis:auto; }
+  .reader__resource-label-full { display:inline; }
+  .reader__resource-label-short { display:none; }
   .reader__header-tools { margin-inline-start:0; }
   .reader__workspace { grid-template-columns:minmax(0,1fr) var(--reader-rail-width); }
   .reader__workspace.is-toc-collapsed { grid-template-columns:minmax(0,1fr) var(--reader-system-rail-compact); }
@@ -838,10 +842,25 @@
  .overlay__body {overflow:auto;min-block-size:0;min-inline-size:0;display:grid;grid-template-columns:minmax(0,1fr);align-content:start;gap:var(--reader-gap);overflow-wrap:anywhere;}
  .overlay__body--panel {display:block;}
  .overlay__content {display:grid;grid-template-columns:minmax(0,1fr);gap:var(--reader-gap);min-inline-size:0;}
+ .reader__drawer[data-resources="true"][open] {grid-template-rows:auto auto minmax(0,1fr);}
+ .overlay__tabs {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--reader-system-space-1);border-block-end:var(--reader-system-inspect-line) solid var(--reader-theme-line);padding-block-end:var(--reader-system-space-2);}
+ .overlay__tabs[hidden] {display:none;}
+ .overlay__tab {--button-hit:var(--reader-system-button-action-hit);border-color:transparent;border-radius:var(--reader-radius);padding-inline:var(--reader-system-space-2);}
+ .overlay__tab[aria-selected="true"] {background:var(--button-selected-surface);color:var(--reader-theme-accent);font-weight:var(--reader-system-weight-heading);border-color:var(--reader-theme-accent);}
+ .reader__drawer .overlay__content {align-content:start;row-gap:var(--reader-system-space-4);padding-block-end:var(--reader-system-space-2);}
+ .reader__drawer .reader__hymn-form {gap:var(--reader-system-space-3);}
+ .reader__drawer .reader__hymn-field {grid-template-columns:var(--reader-hymn-label-width) minmax(0,1fr);}
+ .reader__drawer .overlay__choices {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--reader-system-space-2);}
+ .reader__drawer .overlay__choices button {text-align:start;justify-content:flex-start;min-block-size:var(--reader-system-button-action-hit);}
+ .reader__drawer .overlay__section {gap:var(--reader-system-space-3);}
+ .reader__drawer .overlay__section + .overlay__section {padding-block-start:var(--reader-system-space-4);border-block-start:var(--reader-system-inspect-line) solid var(--reader-theme-line);}
+ .reader__drawer .overlay__disclosure {padding-block:var(--reader-system-space-2);border-block-end:var(--reader-system-inspect-line) solid var(--reader-theme-line);}
+ .reader__drawer .overlay__disclosure summary {min-block-size:var(--reader-system-button-action-hit);align-content:center;color:var(--reader-theme-ink);font-size:var(--overlay-body-size);}
+ .reader__drawer[data-panel="info"] .overlay__content p {line-height:var(--reader-system-leading-body);}
  .overlay__content--gutter {inline-size:calc(100% - var(--reader-system-scroll-size));}
  .overlay :where(h2,h3,p,form,label,section,div,ul,nav,input,select,button,a) {min-inline-size:0;max-inline-size:100%;overflow-wrap:anywhere;}
  .overlay button {white-space:normal;}
- .overlay--drawer {width:min(var(--overlay-panel-width),calc(100% - var(--reader-gap)));height:var(--overlay-max-height);margin-inline-start:auto;margin-inline-end:0;}
+ .overlay--drawer {width:min(var(--overlay-drawer-width),calc(100% - var(--reader-gap)));height:var(--overlay-max-height);margin-inline-start:auto;margin-inline-end:0;}
  .overlay--score {width:min(var(--overlay-score-width),calc(100% - var(--reader-gap)));height:var(--overlay-max-height);}
  .overlay__prayer-text {white-space:pre-line;}
  .overlay__section {display:grid;gap:var(--reader-system-space-4);min-inline-size:0;}
@@ -864,17 +883,17 @@
 <header class="reader__header reader__header--navigation">
  <div class="reader__header-group"><h1 class="reader__title reader__brand">MISSA</h1><span data-js="parish-name"></span></div>
  <div class="reader__header-group reader__header-controls"><label class="reader__label-hidden" for="date">날짜</label><input id="date" type="date" value="2026-10-18" data-js="date" class="missa-input"><button type="button" class="reader__season-badge missa-button" data-js="liturgical-season" aria-haspopup="dialog" aria-controls="season-dialog"></button><span data-js="liturgical-day" aria-live="polite"></span><label class="reader__label-hidden" for="slot">회차</label><select id="slot" class="reader__session-select missa-input" data-js="slot"></select><label class="reader__label-hidden" for="mode">모드</label><select id="mode" data-js="mode" class="missa-input"><option value="beginner">예비신자</option><option value="regular">일반 신자</option></select></div>
- <button type="button" class="reader__menu-toggle missa-button" data-js="header-menu" aria-label="미사 목차와 성가·기도문 메뉴" aria-haspopup="dialog"><svg class="reader__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 5h18M3 12h18M3 19h18"/></svg></button><nav class="reader__header-group reader__header-tools" aria-label="성가와 기도"><button type="button" data-panel="hymn" class="missa-button">성가</button><button type="button" data-panel="prayer" class="missa-button">주요 기도문</button></nav>
+ <nav class="reader__header-group reader__header-tools" aria-label="미사 자료와 목차"><button type="button" data-panel="resources" class="missa-button" aria-haspopup="dialog" aria-controls="reader-drawer" aria-label="미사 자료: 성가·주요 기도문·안내"><span class="reader__resource-label-full">미사 자료</span><span class="reader__resource-label-short">자료</span></button><button type="button" class="reader__menu-toggle missa-button" data-js="header-menu" aria-label="미사 목차" aria-haspopup="dialog"><svg class="reader__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 5h18M3 12h18M3 19h18"/></svg></button></nav>
 </header>
 <div class="reader__workspace"><section class="reader__body" aria-labelledby="part-title">
  <div class="reader__section-heading"><h2 class="reader__title" id="part-title" data-js="part-title">시작 예식</h2><nav class="reader__part-nav" aria-label="미사 순서 이동"><button type="button" class="reader__part-prev missa-button" data-js="part-prev"></button><button type="button" class="reader__part-next missa-button" data-js="part-next"></button></nav></div>
  <div class="reader__book" data-js="book"></div>
  <nav class="reader__turns" aria-label="두 페이지씩 이전·다음 전례로 넘기기"><button type="button" class="reader__turn-button missa-button" data-js="page-prev">← 앞쪽 두 페이지</button><span data-js="page-context"></span><button type="button" class="reader__turn-button reader__turn-boundary missa-button" data-js="page-next">뒤쪽 두 페이지 →</button></nav>
 </section>
-<nav class="reader__row reader__tools" aria-label="리더 도구"><button type="button" data-panel="settings" class="missa-button reader__icon-button" aria-label="보기 설정" title="보기 설정"><svg class="reader__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m9.5 3-.6 2.3-1.7 1-2.3-.6-2.5 4.3 1.7 1.7v2l-1.7 1.7 2.5 4.3 2.3-.6 1.7 1 .6 2.3h5l.6-2.3 1.7-1 2.3.6 2.5-4.3-1.7-1.7v-2l1.7-1.7-2.5-4.3-2.3.6-1.7-1L14.5 3z"/><circle cx="12" cy="12.5" r="3"/></svg></button><button type="button" data-panel="info" class="missa-button">안내</button></nav>
+<nav class="reader__row reader__tools" aria-label="리더 도구"><button type="button" data-panel="settings" class="missa-button reader__icon-button" aria-label="보기 설정" title="보기 설정"><svg class="reader__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m9.5 3-.6 2.3-1.7 1-2.3-.6-2.5 4.3 1.7 1.7v2l-1.7 1.7 2.5 4.3 2.3-.6 1.7 1 .6 2.3h5l.6-2.3 1.7-1 2.3.6 2.5-4.3-1.7-1.7v-2l1.7-1.7-2.5-4.3-2.3.6-1.7-1L14.5 3z"/><circle cx="12" cy="12.5" r="3"/></svg></button></nav>
 <button type="button" class="reader__toc-toggle missa-button" data-js="toc-toggle" aria-expanded="true" aria-controls="prototype-toc" aria-label="목차 접기" title="목차 접기"><svg class="reader__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M15 4v16m-5-12 3 4-3 4"/></svg></button><aside id="prototype-toc" class="reader__rail" aria-label="미사 목차"><nav data-js="toc-rail" aria-label="미사 전체 세부 목차"></nav></aside></div>
 
-<dialog class="reader__drawer overlay overlay--drawer" data-js="drawer" aria-labelledby="drawer-title"><div class="reader__header overlay__header"><h2 id="drawer-title" data-js="drawer-title">목차</h2><button type="button" data-js="close" class="missa-button">닫기</button></div><div class="overlay__body overlay__body--panel"><div class="overlay__content" data-js="drawer-body"></div></div></dialog>
+<dialog class="reader__drawer overlay overlay--drawer" id="reader-drawer" data-js="drawer" aria-labelledby="drawer-title"><div class="reader__header overlay__header"><h2 id="drawer-title" data-js="drawer-title">목차</h2><button type="button" data-js="close" class="missa-button">닫기</button></div><nav class="overlay__tabs" data-js="drawer-tabs" role="tablist" aria-label="미사 자료" hidden></nav><div class="overlay__body overlay__body--panel"><div class="overlay__content" id="drawer-panel" data-js="drawer-body"></div></div></dialog>
 </main>
 <dialog class="reader__tutorial overlay overlay--tutorial" data-js="tutorial" aria-labelledby="tutorial-title"><div class="overlay__header"><h2 class="overlay__title" id="tutorial-title" data-js="tutorial-title">미사 뷰어 사용 안내</h2><p data-js="tutorial-step" role="status"></p></div><p class="overlay__body" data-js="tutorial-copy"></p><nav class="reader__row" aria-label="튜토리얼 단계"><button type="button" data-js="tutorial-prev" class="missa-button">이전</button><button type="button" data-js="tutorial-next" class="missa-button">다음</button><button type="button" data-js="tutorial-later" class="missa-button">나중에 보기</button></nav></dialog>
 <dialog class="reader__score-modal overlay overlay--score" data-js="score-modal" aria-labelledby="score-modal-title"><div class="reader__modal-heading overlay__header"><h2 id="score-modal-title" data-js="score-modal-title">악보 크게 보기</h2><label class="reader__score-fit-label">악보 맞춤<select class="missa-input" data-js="score-fit" aria-label="악보 맞춤"><option value="width">너비 채우기</option><option value="height">세로 채우기</option></select></label><button type="button" data-js="score-modal-close" class="missa-button">닫기</button></div><div class="reader__score-modal-body overlay__scroll" data-js="score-modal-body"></div></dialog>
@@ -1442,7 +1461,7 @@ function jumpToItem(partIndex, item) {
 
 let part = 0, spread = 0, opener = null;
 const position = parts.map(() => null);
-const titles = {toc:'미사 목차',hymn:'회차별 성가',prayer:'주요 기도문',menu:'메뉴',settings:'보기 설정',info:'안내 · 프로토타입'};
+const titles = {toc:'미사 목차',hymn:'회차별 성가',prayer:'주요 기도문',menu:'메뉴',settings:'보기 설정',info:'안내',resources:'미사 자료'};
 function context() { updateParishSessions();updateLiturgicalHeading();updateContentReadiness(); }
 function renderToc() {
  const visibleIds=viewerOrientation==='portrait'?new Set([selectedItem]):new Set(layouts.slice(spread*2,spread*2+2).flatMap(page=>page.blocks.map(block=>block.tocId)));const nav=find('toc-rail');const rail=nav.parentElement;const previousScroll=rail.scrollTop;let activeLink=null;nav.replaceChildren();
@@ -1680,14 +1699,29 @@ function appendParishScoreLibrary(body){
  Object.entries(selectedScoreRegistry()).forEach(([title,assets])=>{if(!assets.length)return;const details=document.createElement('details');details.className='overlay__disclosure';const summary=document.createElement('summary');summary.textContent=title;details.append(summary);let loaded=false;details.ontoggle=()=>{if(details.open&&!loaded){loaded=true;assets.forEach(asset=>details.append(renderPhoto(asset)));}requestAnimationFrame(fitPanelContent);};section.append(details);});body.append(section);
 }
 
+function organizeDrawerContent(which,body){
+ const nodes=[...body.children];
+ if(which==='hymn'&&nodes.length>1){const section=document.createElement('section');section.className='overlay__section';section.setAttribute('aria-label','회차별 성가 편성');nodes.slice(0,-1).forEach(n=>section.append(n));body.prepend(section);}
+ if(which==='settings'){const reload=nodes.findIndex(n=>n.getAttribute('data-js')==='app-reload');if(reload<1)return;body.replaceChildren();[[0,1,'본당'],[1,reload,'화면과 글꼴'],[reload,nodes.length,'오프라인 자료']].forEach(([from,to,title])=>{const section=document.createElement('section');section.className='overlay__section';const heading=document.createElement('h3');heading.textContent=title;section.append(heading,...nodes.slice(from,to));body.append(section);});}
+}
+let selectedResourceTab='hymn';
+function paintResourceTabs(which, trigger){
+ const tabs=find('drawer-tabs');tabs.replaceChildren();const resources=['hymn','prayer','info'].includes(which);tabs.hidden=!resources;find('drawer').setAttribute('data-resources',String(resources));find('drawer').setAttribute('data-panel',which);const body=find('drawer-body');body.removeAttribute('role');body.removeAttribute('aria-labelledby');
+ if(!resources)return;body.setAttribute('role','tabpanel');body.setAttribute('aria-labelledby','resource-tab-'+which);
+ const items=[['hymn','성가'],['prayer','주요 기도문'],['info','안내']];
+ items.forEach(([key,label],index)=>{const button=createReaderButton(label);button.id='resource-tab-'+key;button.type='button';button.classList.add('overlay__tab');button.setAttribute('role','tab');button.setAttribute('aria-selected',String(key===which));button.setAttribute('aria-controls','drawer-panel');button.tabIndex=key===which?0:-1;const select=next=>{showPanel(items[next][0],trigger);document.getElementById('resource-tab-'+items[next][0]).focus({preventScroll:true});};button.onclick=()=>select(index);button.onkeydown=event=>{let next;if(event.key==='ArrowRight')next=(index+1)%items.length;if(event.key==='ArrowLeft')next=(index+items.length-1)%items.length;if(event.key==='Home')next=0;if(event.key==='End')next=items.length-1;if(next!==undefined){event.preventDefault();select(next);}};tabs.append(button);});
+}
 function showPanel(which, trigger) {
- opener = trigger; const body = find('drawer-body'); body.replaceChildren(); find('drawer-title').textContent = titles[which];
+ if(which==='resources')which=selectedResourceTab;
+ if(['hymn','prayer','info'].includes(which))selectedResourceTab=which;
+ paintResourceTabs(which,trigger||opener);
+ opener = trigger||opener; const body = find('drawer-body'); body.replaceChildren(); find('drawer-title').textContent = ['hymn','prayer','info'].includes(which)?'미사 자료':titles[which];
  const text = value => { const p = document.createElement('p'); p.textContent = value; body.append(p); };
  if (which === 'hymn') { const heading=document.createElement('h3');heading.textContent='회차별 성가';body.append(heading);appendHymnEditor(body);appendParishScoreLibrary(body); }
  if (which === 'prayer') { appendPrayerLibrary(body); }
  if(which==='toc'){parts.forEach((item,partIndex)=>{const section=document.createElement('section');section.className='overlay__section';const heading=document.createElement('h3');heading.textContent=item.title;section.append(heading);contents[partIndex].filter(isItemApplicable).forEach(entry=>{const button=createReaderButton(entry.title);if(entry.id===selectedItem)button.setAttribute('aria-current','location');button.onclick=()=>{find('drawer').close();jumpToItem(partIndex,entry);};section.append(button);});body.append(section);});}
 
- if(which==='menu'){[['toc','미사 목차'],['hymn','성가'],['prayer','주요 기도문'],['settings','보기 설정'],['info','안내']].forEach(([panel,label])=>{const b=createReaderButton();b.type='button';b.textContent=label;b.onclick=()=>showPanel(panel,trigger);body.append(b);});}
+ if(which==='menu'){[['toc','미사 목차'],['resources','미사 자료'],['settings','보기 설정']].forEach(([panel,label])=>{const b=createReaderButton();b.type='button';b.textContent=label;b.onclick=()=>showPanel(panel,trigger);body.append(b);});}
  if (which === 'settings') {
   const parishForm=document.createElement('form');parishForm.className='reader__field';
   const parishLabel=document.createElement('label');parishLabel.textContent='본당명';
@@ -1699,7 +1733,7 @@ function showPanel(which, trigger) {
   parishReset.onclick=()=>{try{localStorage.removeItem('missa.parish.name.v1');parishInput.value=selectedParishName();find('parish-name').textContent=selectedParishName();parishStatus.textContent='설정파일의 기본 본당명으로 되돌렸습니다.';}catch{parishStatus.textContent='기본 본당명으로 되돌리지 못했습니다.';}};
   parishForm.append(parishLabel,parishSave,parishReset,parishStatus);body.append(parishForm);
 
-  text('뷰어 방향 미리보기로 화면을 가로·세로 크기로 바꿔 볼 수 있습니다. 세로 화면이 창보다 높으면 브라우저를 스크롤하세요. 실제 기기의 터치·브라우저 UI까지 재현하지는 않습니다.');
+  text('화면 방향은 기기에 맞춰 자동 전환됩니다. 아래에서 가로·세로 보기를 미리 확인할 수 있습니다.');
   const orientationGroup=document.createElement('div');orientationGroup.className='reader__row';orientationGroup.setAttribute('role','group');orientationGroup.setAttribute('aria-label','뷰어 방향 미리보기');
   [['landscape','가로 1024 × 768'],['portrait','세로 768 × 1024'],['auto','현재 화면에 맞춤']].forEach(([value,label])=>{const b=createReaderButton();b.type='button';b.textContent=label;b.setAttribute('aria-pressed',String(orientationPreference===value));b.onclick=()=>{find('drawer').close();setViewerOrientation(value);find('part-next').focus({preventScroll:true});};orientationGroup.append(b);});body.append(orientationGroup);
   const fontLabel=document.createElement('label');fontLabel.className='reader__field';fontLabel.textContent='본문 글꼴';const fontSelect=document.createElement('select');fontSelect.setAttribute('aria-label','본문 글꼴');[['serif','명조'],['sans','고딕']].forEach(([value,label])=>{const option=document.createElement('option');option.value=value;option.textContent=label;fontSelect.append(option);});fontSelect.value=readerBodyFont;const fontStatus=document.createElement('p');fontStatus.setAttribute('role','status');fontSelect.onchange=()=>{fontStatus.textContent=applyReaderBodyFont(fontSelect.value)?'본문 글꼴을 저장했습니다.':'현재 화면에 적용했습니다. 저장소 제한으로 새로고침 후 유지되지 않을 수 있습니다.';};fontLabel.append(fontSelect);body.append(fontLabel,fontStatus);text('본문 기본: 18px · 줄 간격 1.6 · 기본 여백. 제목·버튼·메뉴는 고딕입니다.');
@@ -1709,15 +1743,15 @@ function showPanel(which, trigger) {
  if (which === 'info') {
   const tutorialButton=createReaderButton();tutorialButton.type='button';tutorialButton.textContent='기호와 사용법';tutorialButton.onclick=()=>{find('drawer').close();requestAnimationFrame(()=>showTutorial(trigger||find('part-next')));};body.append(tutorialButton);
   text('가로 두 페이지는 같은 예식의 연속 내용입니다. 아래 버튼으로 페이지를 넘기고, 위 버튼으로 이전·다음 예식에 이동합니다.');
-  text('목차를 접으면 본문 폭이 넓어집니다. 긴 본문과 악보는 바깥 페이지에서 스크롤하며, 가로 보기의 섹션 제목은 상단에 고정됩니다.');
+  text('목차를 접으면 본문 폭이 넓어집니다. 긴 본문과 악보는 카드 본문 안에서 스크롤합니다. 카드 제목과 바깥 화면은 고정됩니다.');
   text('선택 버튼은 은은한 와인 면과 굵은 글씨로, 합송은 짙은 와인 면으로 표시합니다. 저장 버튼은 종이 바탕과 와인 테두리로 구분합니다.');
-  text('프로토타입의 편성·설정은 별도 테스트 공간에 저장합니다. 처음 실행할 때 기존 앱 값을 읽어오지만, 테스트 변경은 기존 편성과 설정을 덮어쓰지 않습니다.');
-  text('날짜별 공식 본문은 일부만 연결되어 있습니다. 미연결 항목·검증 전 판독 초안·본당 최종 교정 전 악보의 상태는 자료 상태에서 확인하세요. 새로운 공식 문구를 생성하지 않았습니다.');
+  text('편성과 보기 설정은 이 기기에 저장됩니다. 기기를 바꿀 때 성가 편성을 백업해 옮길 수 있습니다.');
+  text('날짜별 전례 자료와 본당 미사곡을 함께 제공합니다. 본당별 미사곡과 편성이 다를 수 있으니 사용하시는 본당의 안내를 확인해 주세요.');
   text('보기 설정에서 미색·종이색·와인 다크, 본문 명조·고딕을 바꿀 수 있습니다. 기본은 가로 보기, 본문18px·줄 간격1.6입니다.');
-  const refs=document.createElement('p');[['../docs/references/교중미사_통상문_텍스트_초안.md','텍스트 참조'],['../docs/references/교중미사_통상문_텍스트_초안.json','텍스트 데이터']].forEach(([url,name])=>{const a=document.createElement('a');a.href=encodeURI(url);a.target='_blank';a.rel='noopener noreferrer';a.textContent=name;refs.append(a,document.createTextNode(' '));});body.append(refs);
+
  }
- applyComponentStyles(find('drawer'));if(!find('drawer').open)find('drawer').showModal();
- const panelContent=find('drawer-body');panelContent.classList.remove('overlay__content--gutter');requestAnimationFrame(()=>{if(!find('drawer').open)return;const scroller=panelContent.parentElement;if(panelContent.getBoundingClientRect().width>scroller.clientWidth+1)panelContent.classList.add('overlay__content--gutter');});
+ organizeDrawerContent(which,body);applyComponentStyles(find('drawer'));if(!find('drawer').open)find('drawer').showModal();
+ const panelContent=find('drawer-body');panelContent.parentElement.scrollTop=0;panelContent.classList.remove('overlay__content--gutter');requestAnimationFrame(()=>{if(!find('drawer').open)return;const scroller=panelContent.parentElement;if(panelContent.getBoundingClientRect().width>scroller.clientWidth+1)panelContent.classList.add('overlay__content--gutter');});
 }
 
 const tutorialKey='missa.reader.symbol-tutorial.v1';
@@ -1736,7 +1770,7 @@ function nextTutorial(){if(tutorialIndex===tutorialSteps.length-1)finishTutorial
 
 find('toc-toggle').onclick=function(){const workspace=find('book').closest('.reader__workspace');const collapsed=workspace.classList.toggle('is-toc-collapsed');this.setAttribute('aria-expanded',String(!collapsed));this.setAttribute('aria-label',collapsed?'목차 펼치기':'목차 접기');this.title=collapsed?'목차 펼치기':'목차 접기';const path=this.querySelector('path');path.setAttribute('d',collapsed?'M15 4v16m-4-12-3 4 3 4':'M15 4v16m-5-12 3 4-3 4');scheduleReflow(currentAnchor);};
 find('score-fit').onchange=event=>applyScoreFit(event.target.value);
-find('header-menu').onclick=event=>showPanel('menu',event.currentTarget);
+find('header-menu').onclick=event=>showPanel('toc',event.currentTarget);
 bindPageSwipe(find('book'));
 find('part-prev').onclick = () => go(Math.max(0,part-1));
 find('part-next').onclick = () => go(Math.min(parts.length-1,part+1));
