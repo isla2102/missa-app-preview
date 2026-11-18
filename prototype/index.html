@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="매일미사">
 <meta name="theme-color" content="#70283F">
 <link rel="apple-touch-icon" href="./apple-touch-icon.png">
@@ -540,7 +540,7 @@
 @layer base {
 
  * { scrollbar-width:auto; scrollbar-color:auto; box-sizing: border-box; border-color: var(--reader-theme-line); }
- html, body { height: 100%; overflow:hidden; } body { font-family: var(--reader-ui-font); margin: 0; color: var(--reader-theme-ink); background: var(--reader-theme-bg); }
+ html, body { height:100%; overflow:hidden; overscroll-behavior:none; background:var(--reader-theme-bg); } body { font-family: var(--reader-ui-font); margin: 0; color: var(--reader-theme-ink); background: var(--reader-theme-bg); }
  p { margin:0; }
  a { color: var(--reader-theme-accent); }
  dialog { border-color:var(--reader-system-line); border-radius: var(--reader-radius); color: var(--reader-theme-ink); background: var(--reader-system-surface-panel); }
@@ -555,8 +555,8 @@
  .reader__workspace.is-toc-collapsed { grid-template-columns:minmax(0,1fr); }
  .reader__workspace.is-toc-collapsed .reader__book { grid-column:1; }
 
- .reader { height: 100dvh; display: grid; grid-template-rows: auto minmax(0, 1fr); padding-block-start: calc(var(--reader-system-space-6) + env(safe-area-inset-top, 0px)); padding-block-end: max(var(--reader-system-space-2), env(safe-area-inset-bottom, 0px)); padding-inline: max(var(--reader-system-space-6), calc(var(--reader-system-space-4) + env(safe-area-inset-left, 0px))); gap: var(--reader-gap); box-sizing: border-box; }
- .reader[data-orientation="portrait"] { inline-size:100%; block-size:100dvh; margin-inline: auto; }
+ .reader { height:var(--reader-viewport-height,100dvh); display: grid; grid-template-rows: auto minmax(0, 1fr); padding-block-start: calc(var(--reader-system-space-6) + env(safe-area-inset-top, 0px)); padding-block-end:env(safe-area-inset-bottom,0px); padding-inline: max(var(--reader-system-space-6), calc(var(--reader-system-space-4) + env(safe-area-inset-left, 0px))); gap: var(--reader-gap); box-sizing: border-box; }
+ .reader[data-orientation="portrait"] { inline-size:100%; block-size:var(--reader-viewport-height,100dvh); margin-inline: auto; }
  .reader[data-orientation="landscape"] { inline-size: 100%; block-size: 100dvh; margin-inline: auto; }
  .reader__header, .reader__row, .reader__footer { display: flex; align-items: center; flex-wrap: wrap; gap: var(--reader-gap); }
  .reader__header, .reader__footer { justify-content: space-between; }
@@ -587,6 +587,7 @@
  .reader__tools { grid-column:1; grid-row:3; justify-content:flex-end; gap:var(--reader-system-space-1); }
  .reader__book { grid-column: 1; grid-row: 2; position: relative; container-type: size; touch-action: pan-y; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--reader-gap); }
  .reader__page { border-radius: var(--reader-radius); background: var(--reader-theme-surface); min-height: 0; border: var(--reader-card-border-width) solid var(--reader-card-border-color); padding: var(--reader-padding); overflow: auto; overflow-wrap: anywhere; }
+ .reader__page--single {grid-column:1 / -1;}
  .reader__page--measure { position: absolute; inset-block: 0; inset-inline-start: 0; width: calc((100% - var(--reader-gap)) / 2); visibility: hidden; pointer-events: none; }
  .reader__page--reading { display: block; overflow: auto; }
  .reader__page--reading-psalm { display: block; }
@@ -786,6 +787,10 @@
 @layer components {
  .reader__page-body { position:relative; isolation:isolate; flex:1; min-block-size:0; overflow:hidden; }
  .reader__page-body > .reader__page-scroll { block-size:100%; overscroll-behavior:contain; }
+ .reader__page-body::before,.reader__page-body::after {content:"";position:absolute;inset-inline:0;block-size:var(--reader-system-space-6);pointer-events:none;z-index:var(--reader-system-score-overlay-z);opacity:0;-webkit-backdrop-filter:blur(var(--reader-system-space-1));backdrop-filter:blur(var(--reader-system-space-1));}
+ .reader__page-body::before {inset-block-start:0;background:linear-gradient(var(--reader-theme-surface),transparent);-webkit-mask-image:linear-gradient(black,transparent);mask-image:linear-gradient(black,transparent);}
+ .reader__page-body::after {inset-block-end:0;background:linear-gradient(transparent,var(--reader-theme-surface));-webkit-mask-image:linear-gradient(transparent,black);mask-image:linear-gradient(transparent,black);}
+ .reader__page-body[data-scroll-top="true"]::before,.reader__page-body[data-scroll-bottom="true"]::after {opacity:1;}
 }
 
 @layer responsive {
@@ -839,8 +844,9 @@
  .overlay {width:min(var(--overlay-guide-width),calc(100% - var(--reader-gap)));max-height:var(--overlay-max-height);padding:var(--overlay-padding);font-size:var(--overlay-body-size);line-height:var(--reader-system-leading-body);--button-hit:var(--overlay-control-height);--button-font-size:var(--overlay-note-size);--button-padding-block:var(--reader-system-space-2);--input-hit:var(--overlay-control-height);--input-padding-block:var(--reader-system-space-2);--input-leading:var(--reader-system-button-line);}
  .overlay[open] {display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);gap:var(--overlay-gap);}
  .overlay--tutorial[open] {position:fixed;inset:0;width:100%;max-width:none;height:100%;max-height:none;margin:0;padding:0;border:0;background:transparent;display:block;overflow:hidden;}
- .overlay--tutorial::backdrop {background:transparent;}
- .tutorial__spotlight {position:fixed;box-sizing:border-box;border:var(--reader-response-border) solid var(--reader-theme-accent);border-radius:var(--reader-radius);box-shadow:0 0 0 100vmax var(--overlay-backdrop);pointer-events:none;}
+ .overlay.overlay--tutorial::backdrop {background:transparent;}
+ .tutorial__shade {position:fixed;background:var(--overlay-backdrop);pointer-events:none;}
+ .tutorial__spotlight {position:fixed;box-sizing:border-box;border:var(--reader-response-border) solid var(--reader-theme-accent);border-radius:var(--reader-radius);pointer-events:none;}
  .tutorial__panel {position:absolute;inset:auto;margin:0;box-sizing:border-box;inline-size:min(var(--overlay-drawer-width),calc(100% - 2 * var(--overlay-padding)));max-block-size:calc(100% - 2 * var(--overlay-padding));overflow:auto;display:grid;gap:var(--reader-system-space-4);padding:var(--overlay-padding);background:var(--reader-theme-surface);color:var(--reader-theme-ink);border-radius:var(--reader-radius);}
  .tutorial__panel .overlay__body {display:block;}
 
@@ -960,7 +966,7 @@
 
 <dialog class="reader__drawer overlay overlay--drawer" id="reader-drawer" data-js="drawer" aria-labelledby="drawer-title"><div class="reader__header overlay__header"><h2 id="drawer-title" data-js="drawer-title">목차</h2><button type="button" data-js="close" class="missa-button">닫기</button></div><nav class="overlay__tabs" data-js="drawer-tabs" role="tablist" aria-label="미사 자료" hidden></nav><div class="overlay__body overlay__body--panel"><div class="overlay__content" id="drawer-panel" data-js="drawer-body"></div></div></dialog>
 </main>
-<dialog class="reader__tutorial overlay overlay--tutorial" data-js="tutorial" aria-labelledby="tutorial-title" aria-describedby="tutorial-copy"><div class="tutorial__spotlight" data-js="tutorial-spotlight" aria-hidden="true"></div><div class="tutorial__panel"><div class="overlay__header"><h2 class="overlay__title" id="tutorial-title" data-js="tutorial-title">미사 뷰어 사용 안내</h2><p data-js="tutorial-step" role="status"></p></div><p class="overlay__body" id="tutorial-copy" data-js="tutorial-copy"></p><nav class="reader__row" aria-label="튜토리얼 단계"><button type="button" data-js="tutorial-prev" class="missa-button">이전</button><button type="button" data-js="tutorial-next" class="missa-button">다음</button><button type="button" data-js="tutorial-later" class="missa-button">닫기</button></nav></div></dialog>
+<dialog class="reader__tutorial overlay overlay--tutorial" data-js="tutorial" aria-labelledby="tutorial-title" aria-describedby="tutorial-copy"><div class="tutorial__shade" aria-hidden="true"></div><div class="tutorial__shade" aria-hidden="true"></div><div class="tutorial__shade" aria-hidden="true"></div><div class="tutorial__shade" aria-hidden="true"></div><div class="tutorial__spotlight" data-js="tutorial-spotlight" aria-hidden="true"></div><div class="tutorial__panel"><div class="overlay__header"><h2 class="overlay__title" id="tutorial-title" data-js="tutorial-title">미사 뷰어 사용 안내</h2><p data-js="tutorial-step" role="status"></p></div><p class="overlay__body" id="tutorial-copy" data-js="tutorial-copy"></p><nav class="reader__row" aria-label="튜토리얼 단계"><button type="button" data-js="tutorial-prev" class="missa-button">이전</button><button type="button" data-js="tutorial-next" class="missa-button">다음</button><button type="button" data-js="tutorial-later" class="missa-button">닫기</button></nav></div></dialog>
 <dialog class="reader__score-modal overlay overlay--score" data-js="score-modal" aria-labelledby="score-modal-title"><div class="reader__modal-heading overlay__header"><h2 id="score-modal-title" data-js="score-modal-title">악보 크게 보기</h2><label class="reader__score-fit-label">악보 맞춤<select class="missa-input" data-js="score-fit" aria-label="악보 맞춤"><option value="width">너비 채우기</option><option value="height">세로 채우기</option></select></label><button type="button" data-js="score-modal-close" class="missa-button">닫기</button></div><div class="reader__score-modal-body overlay__scroll" data-js="score-modal-body"></div></dialog>
 <dialog class="reader__tutorial overlay overlay--nested" id="season-help-dialog" data-js="season-help-modal" aria-labelledby="season-help-title" aria-describedby="season-help-text"><div class="reader__modal-heading overlay__header"><h2 id="season-help-title" data-js="season-help-title"></h2><button type="button" data-js="season-help-close" class="missa-button">닫기</button></div><div class="overlay__body"><p id="season-help-text" data-js="season-help-text" class="reader__item-text"></p><a data-js="season-help-source" target="_blank" rel="noopener noreferrer">전례 시기 설명 출처</a></div></dialog>
 <dialog class="reader__tutorial overlay" id="season-dialog" data-js="season-modal" aria-labelledby="season-modal-title"><div class="reader__modal-heading overlay__header"><h2 id="season-modal-title" data-js="season-modal-title">전례 시기</h2><button type="button" data-js="season-modal-close" class="missa-button">닫기</button></div><div class="overlay__body" data-js="season-modal-body"></div></dialog>
@@ -1449,12 +1455,14 @@ function currentHymns(){
  return defaultHymnsForDate(find('date').value);
 }
 function saveCurrentHymns(value){return writeHymnSet(localStorage,find('date').value,find('slot').value,value);}
+function hymnEditorRows(values){return Math.min(3,Math.max(1,...values.map(value=>value.split(/[\n,]+/).filter(x=>x.trim()).length)));}
 function appendHymnEditor(body){
- const form=document.createElement('form'),inputs={},status=document.createElement('p');form.className='reader__hymn-form';status.setAttribute('role','status');
- for(const [title,role] of Object.entries(hymnTitles)){const label=document.createElement('label');label.className='reader__hymn-field';const name=document.createElement('span');name.textContent=title.replace(' 성가','');label.append(name);const input=document.createElement('textarea');input.name=role;input.setAttribute('aria-label',title+' 편성 번호');input.value=currentHymns()[role].join('\n');const fit=()=>{input.rows=Math.min(3,Math.max(1,input.value.split(/[\n,]+/).filter(x=>x.trim()).length));};input.addEventListener('input',fit);fit();inputs[role]=input;label.append(input);form.append(label);}
+ const form=document.createElement('form'),inputs={},status=document.createElement('p');form.className='reader__hymn-form';status.setAttribute('role','status');const fit=()=>{const rows=hymnEditorRows(Object.values(inputs).map(input=>input.value));Object.values(inputs).forEach(input=>{input.rows=rows;});};
+ for(const [title,role] of Object.entries(hymnTitles)){const label=document.createElement('label');label.className='reader__hymn-field';const name=document.createElement('span');name.textContent=title.replace(' 성가','');label.append(name);const input=document.createElement('textarea');input.name=role;input.setAttribute('aria-label',title+' 편성 번호');input.value=currentHymns()[role].join('\n');input.addEventListener('input',fit);inputs[role]=input;label.append(input);form.append(label);}
+ fit();
  const save=createReaderButton('', 'primary');save.type='submit';save.classList.add('reader__hymn-save');save.textContent='편성 저장';const reset=createReaderButton('리셋');reset.type='button';reset.setAttribute('aria-label','추천 성가로 리셋');const actions=document.createElement('div');actions.className='reader__hymn-actions';actions.append(reset,save);form.append(actions);body.append(form,status);
  let undo=null;const undoButton=createReaderButton();undoButton.type='button';undoButton.textContent='적용 취소';undoButton.hidden=true;body.append(undoButton);
- const commit=value=>{try{const previous=currentHymns();if(hymnRoles.every(role=>JSON.stringify(previous[role])===JSON.stringify(value[role]))){status.textContent='현재 편성과 같습니다.';return true;}saveCurrentHymns(value);undo=previous;for(const role of hymnRoles){inputs[role].value=value[role].join('\n');inputs[role].rows=Math.min(3,Math.max(1,value[role].length));}undoButton.hidden=false;status.textContent='저장했습니다.';scheduleReflow(currentAnchor);return true;}catch{status.textContent='저장하지 못했습니다. 브라우저 저장소 설정을 확인해 주세요.';return false;}};
+ const commit=value=>{try{const previous=currentHymns();if(hymnRoles.every(role=>JSON.stringify(previous[role])===JSON.stringify(value[role]))){status.textContent='현재 편성과 같습니다.';return true;}saveCurrentHymns(value);undo=previous;for(const role of hymnRoles){inputs[role].value=value[role].join('\n');}fit();undoButton.hidden=false;status.textContent='저장했습니다.';scheduleReflow(currentAnchor);return true;}catch{status.textContent='저장하지 못했습니다. 브라우저 저장소 설정을 확인해 주세요.';return false;}};
  reset.onclick=()=>{if(!hymnScheduleCatalog.days.some(d=>d.date===find('date').value)){status.textContent='선택 날짜의 추천 성가가 없습니다.';return;}if(commit(defaultHymnsForDate()))status.textContent='추천 성가로 리셋했습니다.';};
  form.onsubmit=event=>{event.preventDefault();try{const value={};for(const role of hymnRoles)value[role]=parseHymnNumbers(inputs[role].value.replace(/\r?\n/g,','));commit(value);}catch(error){status.textContent=error.message;}};
  undoButton.onclick=()=>{if(undo&&commit(undo)){undo=null;undoButton.hidden=true;status.textContent='이전 편성으로 복원했습니다.';}};
@@ -1528,7 +1536,7 @@ const position = parts.map(() => null);
 const titles = {toc:'미사 목차',hymn:'회차별 성가',prayer:'주요 기도문',menu:'메뉴',settings:'보기 설정',info:'안내',resources:'자료'};
 function context() { updateParishSessions();updateLiturgicalHeading();updateContentReadiness(); }
 function renderToc(target=null,inDrawer=false) {
- const visibleIds=viewerOrientation==='portrait'?new Set([selectedItem]):new Set(layouts.slice(spread*2,spread*2+2).flatMap(page=>page.blocks.map(block=>block.tocId)));const nav=target||find('toc-rail');const rail=inDrawer?find('drawer-body').parentElement:nav.parentElement;const previousScroll=rail.scrollTop;let activeLink=null;nav.replaceChildren();
+ const visibleIds=viewerOrientation==='portrait'?new Set([selectedItem]):new Set((pageSpreads(layouts)[spread]||[]).flatMap(page=>page.blocks.map(block=>block.tocId)));const nav=target||find('toc-rail');const rail=inDrawer?find('drawer-body').parentElement:nav.parentElement;const previousScroll=rail.scrollTop;let activeLink=null;nav.replaceChildren();
  parts.forEach((item,partIndex)=>{
   const group=document.createElement('section');const heading=document.createElement('h3');heading.className='reader__toc-group-title';heading.textContent=item.title;
   const list=document.createElement('ol');list.className='reader__toc-list';
@@ -1640,11 +1648,14 @@ function paginateFlow(blocks,fits,split) {
   });
  });flush();return pages;
 }
-function spreadForAnchor(pages,key) {
- const index=pages.findIndex(page=>page.blocks.some(block=>block.key===key));return index<0?0:Math.floor(index/2);
+function pageSpreads(pages){
+ const result=[];
+ for(let i=0;i<pages.length;){const nextIsLord=pages[i+1]?.blocks[0]?.item?.title==='주님의 기도';const count=nextIsLord?1:2;result.push(pages.slice(i,i+count));i+=count;}
+ return result;
 }
+function spreadForAnchor(pages,key){const index=pageSpreads(pages).findIndex(spread=>spread.some(page=>page.blocks.some(block=>block.key===key)));return Math.max(0,index);}
 function sectionFlowKey(block){if(block.group==='주님의 기도 후속')return 'lords-prayer-followup';if(['보편 지향 기도 지향','보편 지향 기도 합송'].includes(block.group))return 'intercession-petitions';if(['보편 지향 기도 마침','보편 지향 기도 아멘'].includes(block.group))return 'intercession-conclusion';if(['예물 준비 기도','예물 기도'].includes(block.item?.title))return 'offertory-prayers';if(block.item?.title==='성호경'||block.group==='인사')return 'opening-sign-and-greeting';return block.prayerTitle?'prayer:'+block.prayerTitle:block.displayTitle?'section:'+block.displayTitle:block.tocId||block.key;}
-function paginateSections(blocks,fits,split,offset=0){const groups=[];blocks.forEach(block=>{const key=sectionFlowKey(block);if(groups.at(-1)?.key===key)groups.at(-1).blocks.push(block);else groups.push({key,blocks:[block]});});const pages=[];groups.forEach(group=>{const lord=group.blocks[0]?.item?.title==='주님의 기도';if(lord&&(offset+pages.length)%2===1)pages.push({blocks:[],blank:true});let section=(['intercession-petitions','intercession-conclusion','offertory-prayers','opening-sign-and-greeting','lords-prayer-followup'].includes(group.key)||lord||group.blocks.every(block=>block.item?.title==='감사기도 제2양식'))?[{blocks:group.blocks,oversize:!fits(group.blocks)}]:paginateFlow(group.blocks,fits,split);if(section.length>2)section=[section[0],{blocks:section.slice(1).flatMap(page=>page.blocks),oversize:true}];if(section.length===2 && (offset+pages.length)%2===1)section=[{blocks:section.flatMap(page=>page.blocks),oversize:true}];pages.push(...section);});return pages;}
+function paginateSections(blocks,fits,split,offset=0){const groups=[];blocks.forEach(block=>{const key=sectionFlowKey(block);if(groups.at(-1)?.key===key)groups.at(-1).blocks.push(block);else groups.push({key,blocks:[block]});});const pages=[];groups.forEach(group=>{const lord=group.blocks[0]?.item?.title==='주님의 기도';let section=(['intercession-petitions','intercession-conclusion','offertory-prayers','opening-sign-and-greeting','lords-prayer-followup'].includes(group.key)||['제1독서','제2독서','복음'].includes(group.blocks[0]?.item?.title)||lord||group.blocks.every(block=>block.item?.title==='감사기도 제2양식'))?[{blocks:group.blocks,oversize:!fits(group.blocks)}]:paginateFlow(group.blocks,fits,split);pages.push(...section);});return pages;}
 function readingPagePlan(blocks){if(blocks[0]?.item?.title==='제1독서' && blocks[1]?.item?.title==='화답송' && blocks[2]?.item?.title==='제2독서')return {leading:[{blocks:blocks.slice(0,2),oversize:false,reading:true},{blocks:blocks.slice(2,3),oversize:false,reading:true}],rest:blocks.slice(3)};return {leading:[],rest:blocks};}
 function composePages() {
  const probe=document.createElement('article');probe.className='reader__page reader__page--measure';probe.setAttribute('aria-hidden','true');probe.inert=true;find('book').append(probe);
@@ -1695,21 +1706,21 @@ function render(options={}) {const previousReaderAnchor=readerAnchor;
  let anchor=options.anchorKey||currentAnchor||contents[part][0].id;
  const continuous=viewerOrientation==='portrait';book.className='reader__book'+(continuous?' reader__book--continuous':'');layouts=continuous?[{blocks:parts.flatMap((_,index)=>flowBlocks(index).map(block=>({...block,flowPart:index}))),continuous:true}]:composePages();if(!layouts.length)return;if(options.edge==='last')anchor=layouts.at(-1).blocks[0].key;
  spread=spreadForAnchor(layouts,anchor);
- const visible=layouts.slice(spread*2,spread*2+2);
+ const spreads=pageSpreads(layouts),visible=spreads[spread]||[];const firstPage=spreads.slice(0,spread).reduce((n,pages)=>n+pages.length,0);
  const anchorBlock=layouts.flatMap(page=>page.blocks).find(block=>block.key===anchor)||visible[0].blocks[0];
  currentAnchor=anchorBlock.key;selectedItem=anchorBlock.tocId;position[part]=currentAnchor;
  const nodes=visible.map((layout,index)=>{
   const page=document.createElement('article');page.className=layout.continuous?'reader__page reader__page--continuous':layout.reading?'reader__page reader__page--reading':layout.oversize?'reader__page reader__page--oversize':'reader__page';if(layout.reading&&layout.blocks.some(block=>block.item?.title==='화답송'))page.classList.add('reader__page--reading-psalm');
-  page.setAttribute('aria-label',layout.blank?'빈 페이지 · 다음 섹션은 다음 펼침에서 시작':`${parts[part].title} ${spread*2+index+1}쪽`);
+  page.setAttribute('aria-label',`${parts[part].title} ${firstPage+index+1}쪽`);
   layout.blocks.forEach(block=>{const node=renderBlock(block);if(continuous)node.setAttribute('data-flow-part',String(block.flowPart));page.append(node);});let heading;if(continuous){heading=document.createElement('div');heading.className='reader__item-heading reader__fixed-heading';const h=document.createElement('h3');h.className='reader__item-title';h.textContent=flowBlockTitle(anchorBlock,part);heading.append(h);}else{heading=page.querySelector('.reader__sticky-heading');if(heading){heading.classList.add('reader__fixed-heading');heading.remove();}}const scroll=document.createElement('div');scroll.className='reader__page-scroll';scroll.tabIndex=0;scroll.setAttribute('aria-label','본문 스크롤');scroll.append(...page.childNodes);const body=document.createElement('div');body.className='reader__page-body';body.append(scroll);page.classList.add('reader__page--fixed');if(heading)page.append(heading);page.append(body);return page;
  });
- if(!continuous&&nodes.length===1){const blank=document.createElement('article');blank.className='reader__page';blank.setAttribute('aria-label','빈 페이지');nodes.push(blank);}
+ if(!continuous&&nodes.length===1)nodes[0].classList.add('reader__page--single');
  book.replaceChildren(...nodes);book.querySelectorAll('.reader__page-scroll').forEach(scroll=>scroll.classList.toggle('is-overlay-scrollbar',scroll.offsetWidth===scroll.clientWidth));readerDate=find('date').value;readerPart=part;readerAnchor=currentAnchor;restoreReaderScroll();if(continuous&&(orientationAnchorPending||options.anchorKey&&options.anchorKey!==previousReaderAnchor||!Number.isFinite(readerScrolls['continuous-all']))){const target=Array.from(book.querySelectorAll('[data-flow-key]')).find(node=>node.getAttribute('data-flow-key')===currentAnchor);if(target){const scroll=readerMainScroller();scroll.scrollTop+=target.getBoundingClientRect().top-scroll.getBoundingClientRect().top;}}if(orientationAnchorPending){const target=document.getElementById(currentAnchor),scroller=continuous?readerMainScroller():target?.closest('.reader__page-scroll');if(target&&scroller)scroller.scrollTop+=target.getBoundingClientRect().top-scroller.getBoundingClientRect().top+orientationReadingFraction*target.getBoundingClientRect().height;}orientationAnchorPending=null;updatePortraitCardTitle(anchorBlock);updateBodyScrollEdges();persistReader();find('part-title').textContent=parts[part].title;
  
  find('part-prev').textContent=part?`← ${parts[part-1].title}`:'미사 시작';find('part-prev').disabled=part===0;
  find('part-next').textContent=part<parts.length-1?`${parts[part+1].title} →`:'미사 마침';find('part-next').disabled=part===parts.length-1;
- find('page-context').textContent=`${parts[part].title} · ${spread*2+1}–${Math.min(spread*2+2,layouts.length)}쪽 / 총 ${layouts.length}쪽`;
- const turn=pageTurnState(part,spread,layouts.length);find('page-prev').disabled=!turn.previous;find('page-next').disabled=!turn.next;find('page-next').setAttribute('data-next-part',String(turn.nextPart));const previousLabel=turnDestination(-1),nextLabel=turnDestination(1);find('page-prev').title=previousLabel;find('page-next').title=nextLabel;find('page-prev').textContent='← '+previousLabel;find('page-next').textContent=nextLabel+' →';find('page-prev').setAttribute('aria-label',previousLabel+'로 이동');find('page-next').setAttribute('aria-label',nextLabel+'로 이동');hintNextPart(turn.nextPart);if(continuous){find('page-context').textContent=parts[part].title+' · 세로 연속 보기';find('page-prev').disabled=part===0;find('page-next').disabled=part===parts.length-1;find('page-prev').textContent=part?'← '+parts[part-1].title:'미사 시작';find('page-next').textContent=part<parts.length-1?parts[part+1].title+' →':'미사 마침';find('page-prev').setAttribute('aria-label',find('page-prev').textContent);find('page-next').setAttribute('aria-label',find('page-next').textContent);find('page-prev').title=find('page-prev').textContent;find('page-next').title=find('page-next').textContent;hintNextPart(false);}renderToc();applyComponentStyles(document);
+ find('page-context').textContent=`${parts[part].title} · ${firstPage+1}${visible.length>1?'–'+(firstPage+visible.length):''}쪽 / 총 ${layouts.length}쪽`;
+ const turn=pageTurnState(part,spread,spreads.length*2);find('page-prev').disabled=!turn.previous;find('page-next').disabled=!turn.next;find('page-next').setAttribute('data-next-part',String(turn.nextPart));const previousLabel=turnDestination(-1),nextLabel=turnDestination(1);find('page-prev').title=previousLabel;find('page-next').title=nextLabel;find('page-prev').textContent='← '+previousLabel;find('page-next').textContent=nextLabel+' →';find('page-prev').setAttribute('aria-label',previousLabel+'로 이동');find('page-next').setAttribute('aria-label',nextLabel+'로 이동');hintNextPart(turn.nextPart);if(continuous){find('page-context').textContent=parts[part].title+' · 세로 연속 보기';find('page-prev').disabled=part===0;find('page-next').disabled=part===parts.length-1;find('page-prev').textContent=part?'← '+parts[part-1].title:'미사 시작';find('page-next').textContent=part<parts.length-1?parts[part+1].title+' →':'미사 마침';find('page-prev').setAttribute('aria-label',find('page-prev').textContent);find('page-next').setAttribute('aria-label',find('page-next').textContent);find('page-prev').title=find('page-prev').textContent;find('page-next').title=find('page-next').textContent;hintNextPart(false);}renderToc();applyComponentStyles(document);
  if(pendingPrayerFocus){const request=pendingPrayerFocus;pendingPrayerFocus=null;const block=Array.from(book.querySelectorAll('[data-flow-key]')).find(node=>node.getAttribute('data-flow-key')===request.key);block?.querySelector(`[data-prayer-mode="${request.mode}"]`)?.focus({preventScroll:true});}
 }
 function scheduleReflow(anchorKey=currentAnchor) {
@@ -1718,11 +1729,11 @@ function scheduleReflow(anchorKey=currentAnchor) {
 }
 function go(index){part=index;currentAnchor=position[index]||contents[index][0].id;render({anchorKey:currentAnchor});}
 function flowBlockTitle(block,partIndex=part){const title=block.displayTitle||block.prayerTitle||block.variant?.title||block.item?.title||contents[partIndex].find(item=>item.id===block.tocId)?.title||parts[partIndex].title;return title+(block.acclamationPart==='last'?' · 합송':block.acclamationPart==='choir'?' · 성가대':block.continued?' (계속)':'');}
-function turnDestination(direction){const target=layouts[(spread+direction)*2];if(target?.blocks.length)return flowBlockTitle(target.blocks[0]);const index=part+direction;if(index<0)return '미사 시작';if(index>=parts.length)return '미사 마침';const item=direction<0?contents[index].at(-1):contents[index][0];return parts[index].title+' · '+item.title;}
+function turnDestination(direction){const target=pageSpreads(layouts)[spread+direction]?.[0];if(target?.blocks.length)return flowBlockTitle(target.blocks[0]);const index=part+direction;if(index<0)return '미사 시작';if(index>=parts.length)return '미사 마침';const item=direction<0?contents[index].at(-1):contents[index][0];return parts[index].title+' · '+item.title;}
 function pageTurnState(partIndex,spreadIndex,pageCount){const first=spreadIndex===0,last=(spreadIndex+1)*2>=pageCount;return {previous:!first||partIndex>0,next:!last||partIndex<parts.length-1,previousPart:first&&partIndex>0,nextPart:last&&partIndex<parts.length-1};}
 let nextPartHint=null;
 function hintNextPart(active){if(nextPartHint){nextPartHint.cancel();nextPartHint=null;}const button=find('page-next');if(active && button.animate && !globalThis.matchMedia?.('(prefers-reduced-motion: reduce)').matches){nextPartHint=button.animate([{outlineWidth:'0px',outlineStyle:'solid',outlineColor:'currentColor',outlineOffset:'0px'},{outlineWidth:'3px',outlineStyle:'solid',outlineColor:'currentColor',outlineOffset:'3px'},{outlineWidth:'0px',outlineStyle:'solid',outlineColor:'currentColor',outlineOffset:'0px'}],{duration:1400,iterations:3});}}
-function turnSpread(direction){if(viewerOrientation==='portrait'){const next=part+direction;if(next>=0&&next<parts.length)go(next);return;}const page=layouts[(spread+direction)*2];if(page){render({anchorKey:page.blocks[0].key});return;}const target=part+direction;if(target<0||target>=parts.length)return;part=target;currentAnchor=null;selectedItem=null;render(direction<0?{edge:'last'}:{anchorKey:contents[part][0].id});}
+function turnSpread(direction){if(viewerOrientation==='portrait'){const next=part+direction;if(next>=0&&next<parts.length)go(next);return;}const page=pageSpreads(layouts)[spread+direction]?.[0];if(page){render({anchorKey:page.blocks[0].key});return;}const target=part+direction;if(target<0||target>=parts.length)return;part=target;currentAnchor=null;selectedItem=null;render(direction<0?{edge:'last'}:{anchorKey:contents[part][0].id});}
 function swipeDirection(dx,dy){return Math.abs(dx)>=64 && Math.abs(dx)>Math.abs(dy)*1.5?(dx<0?1:-1):0;}
 function bindPageSwipe(book){let gesture=null;book.addEventListener('pointerdown',event=>{if(!event.isPrimary || event.button!==0 || event.target.closest('button,a,input,select,textarea,[contenteditable="true"]'))return;gesture={id:event.pointerId,x:event.clientX,y:event.clientY};});book.addEventListener('pointermove',event=>{if(!gesture||gesture.id!==event.pointerId)return;const dx=event.clientX-gesture.x,dy=event.clientY-gesture.y;if(Math.abs(dy)>16 && Math.abs(dy)>Math.abs(dx)){gesture=null;return;}if(Math.abs(dx)>16 && Math.abs(dx)>Math.abs(dy)*1.5 && event.cancelable)event.preventDefault();});book.addEventListener('pointerup',event=>{if(!gesture||gesture.id!==event.pointerId)return;const start=gesture;gesture=null;const direction=swipeDirection(event.clientX-start.x,event.clientY-start.y);if(direction)turnSpread(direction);});book.addEventListener('pointercancel',()=>gesture=null);book.addEventListener('pointerleave',()=>gesture=null);book.addEventListener('dragstart',event=>{if(event.target.tagName==='IMG')event.preventDefault();});}
 
@@ -1823,12 +1834,14 @@ function tutorialPlacement(r,w,h,vw,vh,margin,gap){
  const candidates=choices.map(c=>{const x=clamp(c.x,margin,vw-margin-w),y=clamp(c.y,margin,vh-margin-h);const overlap=Math.max(0,Math.min(x+w,r.right)-Math.max(x,r.left))*Math.max(0,Math.min(y+h,r.bottom)-Math.max(y,r.top));const displacement=Math.abs(x-c.x)+Math.abs(y-c.y);return {...c,x,y,score:overlap*1000+displacement};});
  return candidates.reduce((best,c)=>c.score<best.score?c:best);
 }
+function tutorialShadeRects(r,vw,vh){return [{left:0,top:0,width:vw,height:r.top},{left:0,top:r.top,width:r.left,height:r.bottom-r.top},{left:r.right,top:r.top,width:vw-r.right,height:r.bottom-r.top},{left:0,top:r.bottom,width:vw,height:vh-r.bottom}];}
 function positionTutorial(){
  if(!find('tutorial').open)return;
  const step=tutorialSteps[tutorialIndex];const target=[...document.querySelectorAll(step.selector)].find(n=>{const r=n.getBoundingClientRect();return r.width>0&&r.height>0;});
  const spot=find('tutorial-spotlight');spot.hidden=!target;if(!target)return;
  const r=target.getBoundingClientRect();const left=Math.max(0,r.left),top=Math.max(0,r.top),right=Math.min(innerWidth,r.right),bottom=Math.min(innerHeight,r.bottom);
  // Geometry follows the live app; these values are not product copy.
+ const shades=tutorialShadeRects({left,top,right,bottom},innerWidth,innerHeight);find('tutorial').querySelectorAll('.tutorial__shade').forEach((shade,i)=>{for(const [key,value]of Object.entries(shades[i]))shade.style[key]=Math.max(0,value)+'px';});
  spot.style.left=left+'px';spot.style.top=top+'px';spot.style.width=Math.max(0,right-left)+'px';spot.style.height=Math.max(0,bottom-top)+'px';
  const panel=find('tutorial').querySelector('.tutorial__panel');const style=getComputedStyle(panel);const margin=parseFloat(style.paddingLeft)||16;const gap=parseFloat(style.rowGap)||16;
  panel.style.maxHeight=Math.max(0,innerHeight-2*margin)+'px';
@@ -1871,7 +1884,9 @@ function scheduleViewportReflow(){
  },150);
 }
 if(typeof ResizeObserver!=='undefined')new ResizeObserver(scheduleViewportReflow).observe(find('book'));
-window.addEventListener('resize',()=>{if(orientationPreference==='auto'){const next=window.innerHeight>window.innerWidth?'portrait':'landscape';if(next!==viewerOrientation)setViewerOrientation('auto');}scheduleViewportReflow();});
+function syncReaderViewport(){const viewport=window.visualViewport;const height=viewport&&viewport.scale===1?Math.min(innerHeight,viewport.height):innerHeight;document.documentElement.style.setProperty('--reader-viewport-height',height+'px');}
+syncReaderViewport();window.visualViewport?.addEventListener('resize',()=>{syncReaderViewport();scheduleViewportReflow();});
+window.addEventListener('resize',()=>{syncReaderViewport();if(orientationPreference==='auto'){const next=window.innerHeight>window.innerWidth?'portrait':'landscape';if(next!==viewerOrientation)setViewerOrientation('auto');}scheduleViewportReflow();});
 document.fonts?.ready.then(()=>scheduleReflow());
 find('tutorial-prev').onclick=()=>{tutorialIndex=Math.max(0,tutorialIndex-1);paintTutorial();};
 find('tutorial-next').onclick=nextTutorial;

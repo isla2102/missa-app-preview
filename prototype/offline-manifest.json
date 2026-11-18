@@ -1,5 +1,5 @@
 {
-  "version": "7d45fbb44158f0bd",
+  "version": "4f2470a7a816ff4a",
   "first": "2026-10-01",
   "last": "2026-12-31",
   "assets": [
@@ -130,8 +130,8 @@
     },
     {
       "url": "index.html",
-      "sha256": "52694225280d20ffaacfc163be8e35f7674e4278f88846e0d2c0d863369fd88c",
-      "bytes": 1629073
+      "sha256": "83f644a76a9c7099886096744584e623732da324f4931b9cf6a0472110bd6a1e",
+      "bytes": 1631362
     },
     {
       "url": "manifest.webmanifest",
