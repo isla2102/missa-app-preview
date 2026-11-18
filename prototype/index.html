@@ -551,7 +551,6 @@
 }
 @layer layout {
 
- .reader__toc-toggle { grid-column:2; grid-row:1; justify-self:end; inline-size:var(--reader-system-button-main-hit); --button-padding-inline:var(--reader-system-space-2); display:none; place-items:center; }
  .reader__workspace.is-toc-collapsed { grid-template-columns:minmax(0,1fr); }
  .reader__workspace.is-toc-collapsed .reader__book { grid-column:1; }
 
@@ -699,6 +698,12 @@
  .reader__score-source { position:absolute; inset-block-end:var(--reader-system-space-2); inset-inline-end:var(--reader-system-space-2); z-index:var(--reader-system-score-overlay-z); display:block; text-align: end; font-size: var(--reader-score-action-font); margin-block-start: var(--reader-header-gap); }
  .reader__score-enlarge { --button-font-size:var(--reader-system-button-option-size); --button-hit:var(--reader-system-button-option-hit); --button-leading:var(--reader-system-button-line); --button-padding-block:var(--reader-system-space-1); position:absolute; inset-block-start:0; inset-inline-end:0; z-index:var(--reader-system-score-overlay-z); margin:0; flex-shrink:0; }
  .reader__book--continuous { display:block; overflow:hidden; }
+ .reader[data-orientation="portrait"] .reader__workspace {grid-template-columns:minmax(0,1fr) var(--reader-system-rail-compact);}
+ .reader[data-orientation="portrait"] .reader__section-heading {grid-column:1 / -1;}
+ .reader[data-orientation="portrait"] .reader__rail {display:block;padding-inline:var(--reader-system-space-1);}
+ .reader[data-orientation="portrait"] .reader__rail .reader__toc-list,.reader[data-orientation="portrait"] .reader__rail .reader__toc-group-title {display:none;}
+ .reader[data-orientation="portrait"] .reader__rail .reader__toc-major {display:block;color:var(--reader-theme-ink);font-size:var(--reader-system-toc-size);line-height:var(--reader-system-toc-leading);text-align:center;text-decoration:none;padding:var(--reader-system-space-2) 0;margin-block-end:var(--reader-system-space-2);border-radius:var(--reader-radius);}
+ .reader[data-orientation="portrait"] .reader__rail .reader__toc-major[aria-current="true"] {color:var(--reader-theme-accent);background:var(--reader-system-toc-current);font-weight:700;}
  .reader[data-orientation="portrait"] .reader__turns { display:none; }
  .reader__page--continuous { height:100%; overflow:hidden; }
  .reader__book--continuous .reader__reading-content { display: block; min-block-size: 0; }
@@ -720,8 +725,7 @@
  .reader[data-orientation="portrait"] .reader__title-cluster {position:relative;grid-column:1 / -1;display:block;text-align:center;}
  .reader[data-orientation="portrait"] .reader__title-cluster h2 {padding-inline:var(--reader-system-button-main-hit);}
  .reader[data-orientation="portrait"] .reader__title-toc {position:absolute;inset-inline-end:0;inset-block-start:50%;transform:translateY(-50%);z-index:var(--reader-system-score-overlay-z);}
- .reader[data-orientation="portrait"] .reader__part-prev,.reader[data-orientation="portrait"] .reader__part-next,.reader[data-orientation="portrait"] .reader__toc-toggle {display:none;}
- .reader[data-orientation="portrait"] .reader__drawer {--overlay-drawer-width:var(--overlay-compact-drawer-width);}
+ .reader[data-orientation="portrait"] .reader__part-prev,.reader[data-orientation="portrait"] .reader__part-next,.reader[data-orientation="portrait"] .reader[data-orientation="portrait"] .reader__drawer {--overlay-drawer-width:var(--overlay-compact-drawer-width);}
  .reader[data-orientation="portrait"] .reader__header-tools > [data-panel] {display:none;}
  .reader[data-orientation="portrait"] .reader__tools {display:none;}
  .reader[data-orientation="portrait"] .reader__menu-toggle { display:grid; place-items:center; flex-shrink:0; }
@@ -805,7 +809,6 @@
   .reader[data-orientation="landscape"] .reader__workspace { grid-template-columns:minmax(0,1fr) var(--reader-rail-width); }
   .reader[data-orientation="landscape"] .reader__workspace.is-toc-collapsed { grid-template-columns:minmax(0,1fr) var(--reader-system-rail-compact); }
   .reader[data-orientation="landscape"] .reader__rail { display:block; }
-  .reader[data-orientation="landscape"] .reader__toc-toggle { display:grid; }
   .reader__tools { grid-column:2; }
   .reader[data-orientation="landscape"] .reader__section-heading { grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); grid-template-rows:auto; }
   .reader[data-orientation="landscape"] .reader__title-cluster { grid-column:2; }
@@ -957,12 +960,12 @@
  <nav class="reader__header-group reader__header-tools" aria-label="미사 자료와 목차"><button type="button" data-panel="help" class="missa-button" aria-label="사용 안내" title="사용 안내" aria-haspopup="dialog" aria-controls="reader-drawer"><svg class="reader__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 0 1 5 .3c0 1.7-2.5 2-2.5 3.7m0 3h.01"/></svg></button><button type="button" data-panel="resources" class="missa-button" aria-haspopup="dialog" aria-controls="reader-drawer" aria-label="자료: 성가·주요 기도문">자료</button><button type="button" class="reader__menu-toggle missa-button" data-js="header-menu" aria-label="메뉴" aria-haspopup="dialog"><svg class="reader__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 5h18M3 12h18M3 19h18"/></svg></button></nav>
 </header>
 <div class="reader__workspace"><section class="reader__body" aria-labelledby="part-title">
- <div class="reader__section-heading"><div class="reader__title-cluster"><h2 class="reader__title" id="part-title" data-js="part-title">시작 예식</h2><button type="button" class="missa-button reader__title-toc" data-js="title-toc" aria-label="미사 목차" title="미사 목차" aria-haspopup="dialog"><svg class="reader__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5h13M8 12h13M8 19h13M3 5h.01M3 12h.01M3 19h.01"/></svg></button></div><nav class="reader__part-nav" aria-label="미사 순서 이동"><button type="button" class="reader__part-prev missa-button" data-js="part-prev"></button><button type="button" class="reader__part-next missa-button" data-js="part-next"></button></nav></div>
+ <div class="reader__section-heading"><div class="reader__title-cluster"><h2 class="reader__title" id="part-title" data-js="part-title">시작 예식</h2><button type="button" class="missa-button reader__title-toc" data-js="title-toc" aria-label="미사 목차" title="미사 목차" aria-haspopup="dialog"><svg class="reader__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M15 4v16m-5-12 3 4-3 4"/></svg></button></div><nav class="reader__part-nav" aria-label="미사 순서 이동"><button type="button" class="reader__part-prev missa-button" data-js="part-prev"></button><button type="button" class="reader__part-next missa-button" data-js="part-next"></button></nav></div>
  <div class="reader__book" data-js="book"></div>
  <nav class="reader__turns" aria-label="두 페이지씩 이전·다음 전례로 넘기기"><button type="button" class="reader__turn-button missa-button" data-js="page-prev">← 앞쪽 두 페이지</button><span data-js="page-context"></span><button type="button" class="reader__turn-button reader__turn-boundary missa-button" data-js="page-next">뒤쪽 두 페이지 →</button></nav>
 </section>
 <nav class="reader__row reader__tools" aria-label="리더 도구"><button type="button" data-panel="settings" class="missa-button reader__icon-button" aria-label="보기 설정" title="보기 설정"><svg class="reader__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m9.5 3-.6 2.3-1.7 1-2.3-.6-2.5 4.3 1.7 1.7v2l-1.7 1.7 2.5 4.3 2.3-.6 1.7 1 .6 2.3h5l.6-2.3 1.7-1 2.3.6 2.5-4.3-1.7-1.7v-2l1.7-1.7-2.5-4.3-2.3.6-1.7-1L14.5 3z"/><circle cx="12" cy="12.5" r="3"/></svg></button></nav>
-<button type="button" class="reader__toc-toggle missa-button" data-js="toc-toggle" aria-expanded="true" aria-controls="prototype-toc" aria-label="목차 접기" title="목차 접기"><svg class="reader__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M15 4v16m-5-12 3 4-3 4"/></svg></button><aside id="prototype-toc" class="reader__rail" aria-label="미사 목차"><nav data-js="toc-rail" aria-label="미사 전체 세부 목차"></nav></aside></div>
+<aside id="prototype-toc" class="reader__rail" aria-label="미사 목차"><nav data-js="toc-rail" aria-label="미사 전체 세부 목차"></nav></aside></div>
 
 <dialog class="reader__drawer overlay overlay--drawer" id="reader-drawer" data-js="drawer" aria-labelledby="drawer-title"><div class="reader__header overlay__header"><h2 id="drawer-title" data-js="drawer-title">목차</h2><button type="button" data-js="close" class="missa-button">닫기</button></div><nav class="overlay__tabs" data-js="drawer-tabs" role="tablist" aria-label="미사 자료" hidden></nav><div class="overlay__body overlay__body--panel"><div class="overlay__content" id="drawer-panel" data-js="drawer-body"></div></div></dialog>
 </main>
@@ -1720,7 +1723,7 @@ function render(options={}) {const previousReaderAnchor=readerAnchor;
  find('part-prev').textContent=part?`← ${parts[part-1].title}`:'미사 시작';find('part-prev').disabled=part===0;
  find('part-next').textContent=part<parts.length-1?`${parts[part+1].title} →`:'미사 마침';find('part-next').disabled=part===parts.length-1;
  find('page-context').textContent=`${parts[part].title} · ${firstPage+1}${visible.length>1?'–'+(firstPage+visible.length):''}쪽 / 총 ${layouts.length}쪽`;
- const turn=pageTurnState(part,spread,spreads.length*2);find('page-prev').disabled=!turn.previous;find('page-next').disabled=!turn.next;find('page-next').setAttribute('data-next-part',String(turn.nextPart));const previousLabel=turnDestination(-1),nextLabel=turnDestination(1);find('page-prev').title=previousLabel;find('page-next').title=nextLabel;find('page-prev').textContent='← '+previousLabel;find('page-next').textContent=nextLabel+' →';find('page-prev').setAttribute('aria-label',previousLabel+'로 이동');find('page-next').setAttribute('aria-label',nextLabel+'로 이동');hintNextPart(turn.nextPart);if(continuous){find('page-context').textContent=parts[part].title+' · 세로 연속 보기';find('page-prev').disabled=part===0;find('page-next').disabled=part===parts.length-1;find('page-prev').textContent=part?'← '+parts[part-1].title:'미사 시작';find('page-next').textContent=part<parts.length-1?parts[part+1].title+' →':'미사 마침';find('page-prev').setAttribute('aria-label',find('page-prev').textContent);find('page-next').setAttribute('aria-label',find('page-next').textContent);find('page-prev').title=find('page-prev').textContent;find('page-next').title=find('page-next').textContent;hintNextPart(false);}renderToc();applyComponentStyles(document);
+ const turn=pageTurnState(part,spread,spreads.length*2);find('page-prev').disabled=!turn.previous;find('page-next').disabled=!turn.next;find('page-next').setAttribute('data-next-part',String(turn.nextPart));const previousLabel=turnDestination(-1),nextLabel=turnDestination(1);find('page-prev').title=previousLabel;find('page-next').title=nextLabel;find('page-prev').textContent='← '+previousLabel;find('page-next').textContent=nextLabel+' →';find('page-prev').setAttribute('aria-label',previousLabel+'로 이동');find('page-next').setAttribute('aria-label',nextLabel+'로 이동');hintNextPart(turn.nextPart);if(continuous){find('page-context').textContent=parts[part].title+' · 세로 연속 보기';find('page-prev').disabled=part===0;find('page-next').disabled=part===parts.length-1;find('page-prev').textContent=part?'← '+parts[part-1].title:'미사 시작';find('page-next').textContent=part<parts.length-1?parts[part+1].title+' →':'미사 마침';find('page-prev').setAttribute('aria-label',find('page-prev').textContent);find('page-next').setAttribute('aria-label',find('page-next').textContent);find('page-prev').title=find('page-prev').textContent;find('page-next').title=find('page-next').textContent;hintNextPart(false);}renderToc();updateTocControl();applyComponentStyles(document);
  if(pendingPrayerFocus){const request=pendingPrayerFocus;pendingPrayerFocus=null;const block=Array.from(book.querySelectorAll('[data-flow-key]')).find(node=>node.getAttribute('data-flow-key')===request.key);block?.querySelector(`[data-prayer-mode="${request.mode}"]`)?.focus({preventScroll:true});}
 }
 function scheduleReflow(anchorKey=currentAnchor) {
@@ -1814,7 +1817,7 @@ function showPanel(which, trigger) {
 
  [['읽기',['가로에서는 두 쪽, 세로에서는 한 카드로 읽습니다.','긴 본문은 카드 안에서 스크롤합니다.']],['미사 참여',['목차에서 원하는 순서로 이동할 수 있습니다.','낭송·성가 버튼으로 기도문과 악보를 바꿉니다.']],['저장과 자료',['성가 편성과 보기 설정은 이 기기에 저장됩니다.','미사곡은 본당 기준입니다. 다른 본당에서는 편성을 확인해 주세요.','본문과 본당 악보는 오프라인으로 저장되며 일반 성가 외부 악보는 인터넷이 필요합니다.']]].forEach(([title,lines])=>{const section=document.createElement('section');section.className='guide__section';const h=document.createElement('h3');h.textContent=title;const list=document.createElement('ul');lines.forEach(line=>{const li=document.createElement('li');li.textContent=line;list.append(li);});section.append(h,list);body.append(section);});
  }
- organizeDrawerContent(which,body);applyComponentStyles(find('drawer'));if(!find('drawer').open)find('drawer').showModal();
+ organizeDrawerContent(which,body);applyComponentStyles(find('drawer'));if(!find('drawer').open)find('drawer').showModal();updateTocControl();
  const panelContent=find('drawer-body');panelContent.parentElement.scrollTop=0;panelContent.classList.remove('overlay__content--gutter');requestAnimationFrame(()=>{if(!find('drawer').open)return;const scroller=panelContent.parentElement;if(panelContent.getBoundingClientRect().width>scroller.clientWidth+1)panelContent.classList.add('overlay__content--gutter');});
 }
 
@@ -1858,10 +1861,16 @@ function hasSeenTutorial(){try{return localStorage.getItem(tutorialKey)==='done'
 function finishTutorial(){tutorialSeen=true;try{localStorage.setItem(tutorialKey,'done');}catch{}find('tutorial').close();}
 function nextTutorial(){if(tutorialIndex===tutorialSteps.length-1)finishTutorial();else{tutorialIndex++;paintTutorial();}}
 
-find('toc-toggle').onclick=function(){const workspace=find('book').closest('.reader__workspace');const collapsed=workspace.classList.toggle('is-toc-collapsed');this.setAttribute('aria-expanded',String(!collapsed));this.setAttribute('aria-label',collapsed?'목차 펼치기':'목차 접기');this.title=collapsed?'목차 펼치기':'목차 접기';const path=this.querySelector('path');path.setAttribute('d',collapsed?'M15 4v16m-4-12-3 4 3 4':'M15 4v16m-5-12 3 4-3 4');scheduleReflow(currentAnchor);};
 find('score-fit').onchange=event=>applyScoreFit(event.target.value);
 find('header-menu').onclick=event=>showPanel('menu',event.currentTarget);
-find('title-toc').onclick=event=>showPanel('toc',event.currentTarget);
+function updateTocControl(){
+ const button=find('title-toc'),portrait=viewerOrientation==='portrait';const expanded=portrait?find('drawer').open&&find('drawer').getAttribute('data-panel')==='toc':!find('book').closest('.reader__workspace').classList.contains('is-toc-collapsed');
+ button.setAttribute('aria-expanded',String(expanded));button.setAttribute('aria-controls',portrait?'reader-drawer':'prototype-toc');
+ if(portrait)button.setAttribute('aria-haspopup','dialog');else button.removeAttribute('aria-haspopup');
+ button.setAttribute('aria-label',portrait?'미사 목차 열기':expanded?'미사 목차 접기':'미사 목차 펼치기');button.title=button.getAttribute('aria-label');
+ button.querySelector('path').setAttribute('d',expanded?'M15 4v16m-5-12 3 4-3 4':'M15 4v16m-4-12-3 4 3 4');
+}
+find('title-toc').onclick=event=>{if(viewerOrientation==='portrait')showPanel('toc',event.currentTarget);else{find('book').closest('.reader__workspace').classList.toggle('is-toc-collapsed');updateTocControl();scheduleReflow(currentAnchor);}};
 bindPageSwipe(find('book'));
 find('part-prev').onclick = () => go(Math.max(0,part-1));
 find('part-next').onclick = () => go(Math.min(parts.length-1,part+1));
