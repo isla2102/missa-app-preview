@@ -1,117 +1,117 @@
 {
-  "version": "c0274a8ed60f8103",
+  "version": "7d45fbb44158f0bd",
   "first": "2026-10-01",
   "last": "2026-12-31",
   "assets": [
     {
       "url": "../docs/교중미사악보/reengraved/semantic-a4/agnus.svg",
-      "sha256": "741d75f362c75511c11aacf1573ed4f679424189896618c8fc95b29c87eb72b8",
-      "bytes": 85010
+      "sha256": "553e30b7cebe351e1692875418a53523d053b4d148a0186e0259ca71f5b16721",
+      "bytes": 79772
     },
     {
       "url": "../docs/교중미사악보/reengraved/semantic-a4/alleluia-365.svg",
-      "sha256": "51d3010ceeea6b6c76cd5598a9d618cb8c8c795a46c8cc20eeebae97fac00b5e",
-      "bytes": 22203
+      "sha256": "baa17b56ca4a7c24cdfa581ba377a3130241767785165e9a1b04c67904be3cc2",
+      "bytes": 24721
     },
     {
       "url": "../docs/교중미사악보/reengraved/semantic-a4/amen.svg",
-      "sha256": "f40ffab8727e3b7802991f17714e3fb69f1b64e14edc745c3060a2d04a57d460",
-      "bytes": 17126
+      "sha256": "483482dd08152d5ba8270e26d4a8f9e6f8a0d3c0a6f68f6a055373629eadd619",
+      "bytes": 19649
     },
     {
       "url": "../docs/교중미사악보/reengraved/semantic-a4/doxology.svg",
-      "sha256": "a31ef00156ffa96545abccf779db1a829e5fc887a03855366f38161b7cb8e7d3",
-      "bytes": 28168
+      "sha256": "04156437845f4ca2fc4db409e3d8713778dce855bbf4f85c125c232c22606c2c",
+      "bytes": 34110
     },
     {
       "url": "../docs/교중미사악보/reengraved/semantic-a4/gloria.svg",
-      "sha256": "7f49b4c7aa75f2c8f2970e7fe2cc19557caeb195dc3b58f7599e1ba032c3f90d",
-      "bytes": 479962
+      "sha256": "85a762dfcfc968f47e06b6eb06d6b099d2b5568f7faa9c2f48a3f3988ba5e744",
+      "bytes": 425795
     },
     {
       "url": "../docs/교중미사악보/reengraved/semantic-a4/kyrie.svg",
-      "sha256": "f33195f7f6f7e0cbfa5cd5667c32f1c046a26fe90073d7a01c4d1bc2f5f71910",
-      "bytes": 115173
+      "sha256": "16528aad0fc650c509cad93c7721ae61ad37e0dc36b40c646b3e4e092ed2c190",
+      "bytes": 113526
     },
     {
       "url": "../docs/교중미사악보/reengraved/semantic-a4/lords-prayer.svg",
-      "sha256": "c5965ec3906587484fa929b297eeb2d7b3ca0cc2145001a57f03a010dd180b03",
-      "bytes": 202423
+      "sha256": "ab9e48ddfa7318e65f173a79b77c804eca1eee2b87bb44af27c50822acebd754",
+      "bytes": 189797
     },
     {
       "url": "../docs/교중미사악보/reengraved/semantic-a4/memorial-easter.svg",
-      "sha256": "ec53b41f501a3883f7ff203d0d649e8a012c5ad569785fa32548a07ff19510a4",
-      "bytes": 53736
+      "sha256": "82431441c08400be9f317d05b2f23f76554f2f54ca121f89c560fc805f23b104",
+      "bytes": 48664
     },
     {
       "url": "../docs/교중미사악보/reengraved/semantic-a4/memorial-lent.svg",
-      "sha256": "23fba65ac79e91819a17110aeacd087c7f9965d3721212db645eb0fc7ae5708d",
-      "bytes": 66019
+      "sha256": "f912bdfad09ba33b9603ce11239b5763b3e52c314e76ef3b318f70e8a50ef470",
+      "bytes": 60186
     },
     {
       "url": "../docs/교중미사악보/reengraved/semantic-a4/memorial-ordinary.svg",
-      "sha256": "261e5de52fdaf91fb7c440c3bf2dfc2cb94f8a9e0f47d716d10e76842793c5e0",
-      "bytes": 56288
+      "sha256": "b298b1abb7db83963ba161f6e26405a26091c487e80fd34a80744d0cbd48de4c",
+      "bytes": 55034
     },
     {
       "url": "../docs/교중미사악보/reengraved/semantic-a4/sanctus.svg",
-      "sha256": "5c596f606c935d5fbd98d866e9b88c94d995d71fbb651a9348cba2df02d2650a",
-      "bytes": 121462
+      "sha256": "beb82a04deaf1255e68ce4ed1b9fb1179adbabffcf7c486a95a48a26d09719df",
+      "bytes": 116799
     },
     {
       "url": "../docs/저녁미사악보/reengraved/agnus-shin-1.svg",
-      "sha256": "2545fd587a1e55976e04d83a282f462b2d1aee57714c168525a0d1e6e141aa31",
-      "bytes": 136740
+      "sha256": "354bc68647e55b97f753e138490f1c0200c50d79fed281cc1f3b2ae12acad583",
+      "bytes": 148586
     },
     {
       "url": "../docs/저녁미사악보/reengraved/alleluia-refrain.svg",
-      "sha256": "d6a0d548cde080cb88a2277f0d3adfa5e1e20dfbcb6307160974c3eff051809b",
-      "bytes": 80819
+      "sha256": "1ee8963f028b4d9ba7ab5ecf88bd29cd719dadb45312eb17550a1e78d7cbe859",
+      "bytes": 84765
     },
     {
       "url": "../docs/저녁미사악보/reengraved/amen-shin-1.svg",
-      "sha256": "b31059c761c80b4790a2950ca2962a2592be1a40a7fa2e731a8ee8ccd1a806b3",
-      "bytes": 19117
+      "sha256": "6db9079e8b3de40aab1c41409939acf37b7dae50b7e33e6f149246cdb28e4a1a",
+      "bytes": 22845
     },
     {
       "url": "../docs/저녁미사악보/reengraved/gloria-1.svg",
-      "sha256": "40f6e06de40ed21b056619e4d4f847c7e9565e16701b7457896eba03e589fe82",
-      "bytes": 182189
+      "sha256": "263177238a848da2b9c4480abe877085496621a06fb62d54ca16b4ff02263ddc",
+      "bytes": 189418
     },
     {
       "url": "../docs/저녁미사악보/reengraved/gloria-2.svg",
-      "sha256": "40386fb4dabcbba1fa626119a99a4037e074bcb27fbf96fb390b532b4fa3c888",
-      "bytes": 153161
+      "sha256": "1476cbc6185d413abf7e67e776a46f0fa5ad06fee21409e1da517e2af3004d28",
+      "bytes": 169671
     },
     {
       "url": "../docs/저녁미사악보/reengraved/gloria-3.svg",
-      "sha256": "92d4a7e6f5777e388ee04a1525467311404d0b742a1022c4370c28df41a46ebb",
-      "bytes": 181609
+      "sha256": "f3671caad61741056818be4a5515e186c931d05501943f9c380ad260dc37fc5d",
+      "bytes": 191680
     },
     {
       "url": "../docs/저녁미사악보/reengraved/intercession.svg",
-      "sha256": "b33e90f90566357cdd768c4ad00966458378da3f80b9dbf72b6216f5a564d3b6",
-      "bytes": 27128
+      "sha256": "7b1c032b83b4fc8f4b1e0340b1f1f23df47a8d2debc5ff16b928898cb5152581",
+      "bytes": 31099
     },
     {
       "url": "../docs/저녁미사악보/reengraved/kyrie.svg",
-      "sha256": "f09a82d37750ad58635969095d0e8bb161f06f79651dad99573d895d4431d6d9",
-      "bytes": 85243
+      "sha256": "40b133b92adc6a4dda50737c9c876598132f4358da9322c2c53f1ff58c918749",
+      "bytes": 90350
     },
     {
       "url": "../docs/저녁미사악보/reengraved/mystery-1.svg",
-      "sha256": "d0737442fdbac5edfa6d2f931a0b322cd7ccfb5f644d1a870f535578960bbed7",
-      "bytes": 120602
+      "sha256": "5ae5b6ed7f885083865a2c8777276b6c43c247a9f5fe720a779070033ce938c3",
+      "bytes": 124657
     },
     {
       "url": "../docs/저녁미사악보/reengraved/sanctus-1.svg",
-      "sha256": "97d82d3a70c048c0aacff03168d08015c33bc23673e41d1d3bf1caffa59a6008",
-      "bytes": 101364
+      "sha256": "7066779110fe272d98937de715aad005d072a3bc99c092d3bb28fc3b046a5681",
+      "bytes": 109054
     },
     {
       "url": "../docs/저녁미사악보/reengraved/sanctus-2.svg",
-      "sha256": "1c2f29ef6f07f6f43f99e45103e18e3503e661c2be46a75dfa6c11f88896ded6",
-      "bytes": 40455
+      "sha256": "8818d5103fa465f16ad09d97cb186acca784f402b196d9be25dc52e1552911bf",
+      "bytes": 45434
     },
     {
       "url": "apple-touch-icon.png",
@@ -130,8 +130,8 @@
     },
     {
       "url": "index.html",
-      "sha256": "58540841ff34ade4e22db1d1d138280455167398484658cec632a3e62bbd3c81",
-      "bytes": 1609294
+      "sha256": "52694225280d20ffaacfc163be8e35f7674e4278f88846e0d2c0d863369fd88c",
+      "bytes": 1629073
     },
     {
       "url": "manifest.webmanifest",
