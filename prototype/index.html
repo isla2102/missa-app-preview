@@ -709,7 +709,8 @@
  .reader[data-orientation="portrait"] .reader__rail {display:grid;padding:0;}
  .reader[data-orientation="portrait"] .reader__rail .reader__toc-list,.reader[data-orientation="portrait"] .reader__rail .reader__toc-group-title {display:none;}
  .reader[data-orientation="portrait"] .reader__rail .reader__toc-major {display:block;color:var(--reader-theme-ink);font-size:var(--reader-system-toc-size);line-height:var(--reader-system-toc-leading);text-align:center;text-decoration:none;padding:var(--reader-system-space-2) 0;margin-block-end:var(--reader-system-space-2);border-radius:var(--reader-radius);}
- .reader[data-orientation="portrait"] .reader__rail .reader__toc-major[aria-current="true"] {color:var(--reader-theme-accent);background:var(--reader-system-toc-current);font-weight:700;}
+ .reader[data-orientation="portrait"] .reader__rail .reader__workspace.is-toc-collapsed .reader__toc-major[aria-current="true"] {color:var(--reader-theme-accent);}
+ .reader__toc-major[aria-current="true"] {color:var(--reader-theme-accent);background:var(--reader-system-toc-current);font-weight:700;}
  .reader[data-orientation="portrait"] .reader__turns { display:none; }
  .reader__page--continuous { height:100%; overflow:hidden; }
  .reader__book--continuous .reader__reading-content { display: block; min-block-size: 0; }
@@ -749,6 +750,7 @@
  .reader__workspace.is-toc-collapsed .reader__toc-list { display:none; }
  .reader__workspace.is-toc-collapsed .reader__toc-group-title { display:none; }
  .reader__workspace.is-toc-collapsed .reader__toc-major { display:block; color:var(--reader-theme-ink); font-size:var(--reader-system-toc-size); line-height:var(--reader-system-toc-leading); text-align:center; text-decoration:none; padding:var(--reader-system-space-2) 0; margin-block-end:var(--reader-system-space-2); border-radius:var(--reader-radius); }
+ .reader__workspace.is-toc-collapsed .reader__toc-major[aria-current="true"] {color:var(--reader-theme-accent);}
  .reader__toc-major[aria-current="true"] { color:var(--reader-theme-accent); background:var(--reader-system-toc-current); font-weight:700; }
  *::-webkit-scrollbar { inline-size:var(--reader-system-scroll-size); block-size:var(--reader-system-scroll-size); }
  *::-webkit-scrollbar-track { background:transparent; border-radius:var(--reader-system-scroll-radius); margin-block:var(--reader-system-space-2); }
