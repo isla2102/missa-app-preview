@@ -1,5 +1,5 @@
 {
-  "version": "9ec08206ca8ae02a",
+  "version": "9a0f0a99915aa782",
   "first": "2026-10-01",
   "last": "2026-12-31",
   "assets": [
@@ -130,7 +130,7 @@
     },
     {
       "url": "index.html",
-      "sha256": "04050dfde6b6f8f8d14b6808e81680869a07b1c6f0670e6fb2300d1d41e1ee68",
+      "sha256": "ed907fef9c22feff2a615ba400db0cc85f6c3c8b9277fa42f36b8473473846ba",
       "bytes": 1634241
     },
     {
