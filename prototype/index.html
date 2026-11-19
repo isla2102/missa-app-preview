@@ -580,9 +580,9 @@
  .reader__brand { font-size: var(--reader-brand-size); }
  .reader__notice { margin: 0; }
  .reader__workspace { position:relative; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows:minmax(0,1fr) auto; column-gap: var(--reader-gap); row-gap:var(--reader-system-space-2); }
- .reader__rail { display:none; grid-column: 2; grid-row: 1; min-height: 0; max-width: 100%; overflow:auto; overflow-wrap:anywhere; border:0; padding-inline:var(--reader-system-space-2); border-radius:var(--reader-radius); scrollbar-gutter:stable; }
-
- .reader__toc-control {position:sticky;inset-block-start:0;display:flex;justify-content:flex-end;margin-inline:calc(-1 * var(--reader-system-space-2));margin-block-end:var(--reader-system-space-2);background:var(--reader-theme-bg);z-index:var(--reader-system-score-overlay-z);}
+ .reader__rail {display:none;grid-column:2;grid-row:1;grid-template-rows:auto minmax(0,1fr);min-height:0;min-width:0;max-width:100%;overflow:visible;overflow-wrap:anywhere;border:0;padding:0;}
+ .reader__toc-control {display:flex;justify-content:flex-end;margin-block-end:var(--reader-system-space-2);background:var(--reader-theme-bg);}
+ .reader__rail > nav {min-height:0;overflow:auto;margin-inline-end:calc(-1 * var(--reader-system-space-2));padding-inline-end:var(--reader-system-space-2);scrollbar-gutter:auto;}
  .reader__toc-group-title[aria-current="true"] {font-size:var(--reader-system-type-section);color:var(--reader-theme-accent);}
  .reader__part-heading {margin:var(--reader-system-space-6) 0 var(--reader-system-space-4);font-size:var(--reader-system-type-part);line-height:var(--reader-system-leading-heading);font-weight:var(--reader-system-weight-heading);color:var(--reader-theme-accent);}
  .reader__part-heading:first-child {margin-block-start:0;}
@@ -706,8 +706,7 @@
  .reader__book--continuous { display:block; overflow:hidden; }
  .reader[data-orientation="portrait"] .reader__workspace {grid-template-columns:minmax(0,1fr) var(--reader-system-rail-compact);grid-template-rows:minmax(0,1fr);}
  .reader[data-orientation="portrait"] .reader__section-heading {grid-column:1;}
- .reader[data-orientation="portrait"] .reader__toc-control {margin-inline:calc(-1 * var(--reader-system-space-1));}
- .reader[data-orientation="portrait"] .reader__rail {display:block;padding-inline:var(--reader-system-space-1);}
+ .reader[data-orientation="portrait"] .reader__rail {display:grid;padding:0;}
  .reader[data-orientation="portrait"] .reader__rail .reader__toc-list,.reader[data-orientation="portrait"] .reader__rail .reader__toc-group-title {display:none;}
  .reader[data-orientation="portrait"] .reader__rail .reader__toc-major {display:block;color:var(--reader-theme-ink);font-size:var(--reader-system-toc-size);line-height:var(--reader-system-toc-leading);text-align:center;text-decoration:none;padding:var(--reader-system-space-2) 0;margin-block-end:var(--reader-system-space-2);border-radius:var(--reader-radius);}
  .reader[data-orientation="portrait"] .reader__rail .reader__toc-major[aria-current="true"] {color:var(--reader-theme-accent);background:var(--reader-system-toc-current);font-weight:700;}
@@ -815,7 +814,7 @@
   .reader__header-tools { margin-inline-start:0; }
   .reader[data-orientation="landscape"] .reader__workspace { grid-template-columns:minmax(0,1fr) var(--reader-rail-width); }
   .reader[data-orientation="landscape"] .reader__workspace.is-toc-collapsed { grid-template-columns:minmax(0,1fr) var(--reader-system-rail-compact); }
-  .reader[data-orientation="landscape"] .reader__rail { display:block; }
+  .reader[data-orientation="landscape"] .reader__rail { display:grid; }
   .reader__tools { grid-column:2; }
   .reader[data-orientation="landscape"] .reader__section-heading { grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); grid-template-rows:auto; }
   .reader[data-orientation="landscape"] .reader__title-cluster { grid-column:2; }
@@ -1551,7 +1550,7 @@ const position = parts.map(() => null);
 const titles = {toc:'미사 목차',hymn:'회차별 성가',prayer:'주요 기도문',menu:'메뉴',settings:'보기 설정',info:'안내',resources:'자료'};
 function context() { updateParishSessions();updateLiturgicalHeading();updateContentReadiness(); }
 function renderToc(target=null,inDrawer=false) {
- const visibleIds=viewerOrientation==='portrait'?new Set([selectedItem]):new Set((pageSpreads(layouts)[spread]||[]).flatMap(page=>page.blocks.map(block=>block.tocId)));const nav=target||find('toc-rail');const rail=inDrawer?find('drawer-body').parentElement:nav.parentElement;const previousScroll=rail.scrollTop;let activeLink=null;nav.replaceChildren();
+ const visibleIds=viewerOrientation==='portrait'?new Set([selectedItem]):new Set((pageSpreads(layouts)[spread]||[]).flatMap(page=>page.blocks.map(block=>block.tocId)));const nav=target||find('toc-rail');const rail=inDrawer?find('drawer-body').parentElement:nav;const previousScroll=rail.scrollTop;let activeLink=null;nav.replaceChildren();
  parts.forEach((item,partIndex)=>{
   const group=document.createElement('section');const heading=document.createElement('h3');heading.className='reader__toc-group-title';heading.textContent=item.title;heading.setAttribute('aria-current',String(partIndex===part));
   const list=document.createElement('ol');list.className='reader__toc-list';
