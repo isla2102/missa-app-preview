@@ -1,5 +1,5 @@
 {
-  "version": "0b8e6c6a981b2112",
+  "version": "4cf802575b20c034",
   "first": "2026-10-01",
   "last": "2026-12-31",
   "assets": [
@@ -119,9 +119,24 @@
       "bytes": 831
     },
     {
+      "url": "assets/fonts/2fddd698f58d6e10.woff2",
+      "sha256": "2fddd698f58d6e105ae5b4273a72036ec646c7e5ff0b257288ee8ba62650bfac",
+      "bytes": 451596
+    },
+    {
+      "url": "assets/fonts/4cf1341cf2f23fb3.woff2",
+      "sha256": "4cf1341cf2f23fb3e263712dfde1d8f25eedcc328b696a2e5a2c8add55e5c17b",
+      "bytes": 433776
+    },
+    {
       "url": "assets/fonts/5abcddaa3365a3f6.ttf",
       "sha256": "5abcddaa3365a3f657490ef2cac846c43f1ce351432c8db33ec4753e4df9c6c6",
       "bytes": 2054744
+    },
+    {
+      "url": "assets/fonts/9599f12fd42fc0bc.woff2",
+      "sha256": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4",
+      "bytes": 2057688
     },
     {
       "url": "assets/fonts/9b7f25496a5168f0.ttf",
@@ -134,34 +149,14 @@
       "bytes": 2073868
     },
     {
-      "url": "assets/fonts/a72e34576ea219f0.woff2",
-      "sha256": "a72e34576ea219f090a60859d62b13d369a646a78d4edb6833330ea7b50f6d55",
-      "bytes": 433776
-    },
-    {
       "url": "assets/fonts/bc9ed8e60d93fe6d.ttf",
       "sha256": "bc9ed8e60d93fe6db054b8fb988481b625f2eef8cb2317ad0e9834681b8fe3f3",
       "bytes": 3074720
     },
     {
-      "url": "assets/fonts/ce6269a9ec6e0a4a.woff2",
-      "sha256": "ce6269a9ec6e0a4a983edf24aafc6ec328bfc04f3f13b063f7184ab581fce143",
-      "bytes": 2057688
-    },
-    {
-      "url": "assets/fonts/f325767b690bdaa5.woff2",
-      "sha256": "f325767b690bdaa5b786b860515473590d1382ed19c828b53091c7af2c3619da",
-      "bytes": 451596
-    },
-    {
       "url": "assets/textures/aged.jpg",
       "sha256": "24073d47cbfaeaa38b340efd246ed2310a3adec215155b347da897cbc41e2c6c",
       "bytes": 28519352
-    },
-    {
-      "url": "assets/textures/edge.jpg",
-      "sha256": "95ae0cced6a3d9538e0e71448e01f5b531151f0ac3525421fd74f52edfd8298d",
-      "bytes": 78629
     },
     {
       "url": "assets/textures/grain.jpg",
@@ -180,8 +175,8 @@
     },
     {
       "url": "index.html",
-      "sha256": "c2d7f448f4344f227a0314679ce0cdf73b31229dde704f06bf9b157b017091b4",
-      "bytes": 1706473
+      "sha256": "fbafeeb50ee5a4492ab05163f7d8e547cdda5904c84b8910415aab20e5e8981c",
+      "bytes": 1707542
     },
     {
       "url": "manifest.webmanifest",
