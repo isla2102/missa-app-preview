@@ -1,0 +1,203 @@
+{
+  "version": "35bbd2f57c2ea0d7",
+  "first": "2026-10-01",
+  "last": "2026-12-31",
+  "assets": [
+    {
+      "url": "../docs/교중미사악보/reengraved/semantic-a4/agnus.svg",
+      "sha256": "553e30b7cebe351e1692875418a53523d053b4d148a0186e0259ca71f5b16721",
+      "bytes": 79772
+    },
+    {
+      "url": "../docs/교중미사악보/reengraved/semantic-a4/alleluia-365.svg",
+      "sha256": "baa17b56ca4a7c24cdfa581ba377a3130241767785165e9a1b04c67904be3cc2",
+      "bytes": 24721
+    },
+    {
+      "url": "../docs/교중미사악보/reengraved/semantic-a4/amen.svg",
+      "sha256": "483482dd08152d5ba8270e26d4a8f9e6f8a0d3c0a6f68f6a055373629eadd619",
+      "bytes": 19649
+    },
+    {
+      "url": "../docs/교중미사악보/reengraved/semantic-a4/doxology.svg",
+      "sha256": "04156437845f4ca2fc4db409e3d8713778dce855bbf4f85c125c232c22606c2c",
+      "bytes": 34110
+    },
+    {
+      "url": "../docs/교중미사악보/reengraved/semantic-a4/gloria.svg",
+      "sha256": "85a762dfcfc968f47e06b6eb06d6b099d2b5568f7faa9c2f48a3f3988ba5e744",
+      "bytes": 425795
+    },
+    {
+      "url": "../docs/교중미사악보/reengraved/semantic-a4/kyrie.svg",
+      "sha256": "16528aad0fc650c509cad93c7721ae61ad37e0dc36b40c646b3e4e092ed2c190",
+      "bytes": 113526
+    },
+    {
+      "url": "../docs/교중미사악보/reengraved/semantic-a4/lords-prayer.svg",
+      "sha256": "ab9e48ddfa7318e65f173a79b77c804eca1eee2b87bb44af27c50822acebd754",
+      "bytes": 189797
+    },
+    {
+      "url": "../docs/교중미사악보/reengraved/semantic-a4/memorial-easter.svg",
+      "sha256": "82431441c08400be9f317d05b2f23f76554f2f54ca121f89c560fc805f23b104",
+      "bytes": 48664
+    },
+    {
+      "url": "../docs/교중미사악보/reengraved/semantic-a4/memorial-lent.svg",
+      "sha256": "f912bdfad09ba33b9603ce11239b5763b3e52c314e76ef3b318f70e8a50ef470",
+      "bytes": 60186
+    },
+    {
+      "url": "../docs/교중미사악보/reengraved/semantic-a4/memorial-ordinary.svg",
+      "sha256": "b298b1abb7db83963ba161f6e26405a26091c487e80fd34a80744d0cbd48de4c",
+      "bytes": 55034
+    },
+    {
+      "url": "../docs/교중미사악보/reengraved/semantic-a4/sanctus.svg",
+      "sha256": "beb82a04deaf1255e68ce4ed1b9fb1179adbabffcf7c486a95a48a26d09719df",
+      "bytes": 116799
+    },
+    {
+      "url": "../docs/저녁미사악보/reengraved/agnus-shin-1.svg",
+      "sha256": "354bc68647e55b97f753e138490f1c0200c50d79fed281cc1f3b2ae12acad583",
+      "bytes": 148586
+    },
+    {
+      "url": "../docs/저녁미사악보/reengraved/alleluia-refrain.svg",
+      "sha256": "1ee8963f028b4d9ba7ab5ecf88bd29cd719dadb45312eb17550a1e78d7cbe859",
+      "bytes": 84765
+    },
+    {
+      "url": "../docs/저녁미사악보/reengraved/amen-shin-1.svg",
+      "sha256": "6db9079e8b3de40aab1c41409939acf37b7dae50b7e33e6f149246cdb28e4a1a",
+      "bytes": 22845
+    },
+    {
+      "url": "../docs/저녁미사악보/reengraved/gloria-1.svg",
+      "sha256": "263177238a848da2b9c4480abe877085496621a06fb62d54ca16b4ff02263ddc",
+      "bytes": 189418
+    },
+    {
+      "url": "../docs/저녁미사악보/reengraved/gloria-2.svg",
+      "sha256": "1476cbc6185d413abf7e67e776a46f0fa5ad06fee21409e1da517e2af3004d28",
+      "bytes": 169671
+    },
+    {
+      "url": "../docs/저녁미사악보/reengraved/gloria-3.svg",
+      "sha256": "f3671caad61741056818be4a5515e186c931d05501943f9c380ad260dc37fc5d",
+      "bytes": 191680
+    },
+    {
+      "url": "../docs/저녁미사악보/reengraved/intercession.svg",
+      "sha256": "7b1c032b83b4fc8f4b1e0340b1f1f23df47a8d2debc5ff16b928898cb5152581",
+      "bytes": 31099
+    },
+    {
+      "url": "../docs/저녁미사악보/reengraved/kyrie.svg",
+      "sha256": "40b133b92adc6a4dda50737c9c876598132f4358da9322c2c53f1ff58c918749",
+      "bytes": 90350
+    },
+    {
+      "url": "../docs/저녁미사악보/reengraved/mystery-1.svg",
+      "sha256": "5ae5b6ed7f885083865a2c8777276b6c43c247a9f5fe720a779070033ce938c3",
+      "bytes": 124657
+    },
+    {
+      "url": "../docs/저녁미사악보/reengraved/sanctus-1.svg",
+      "sha256": "7066779110fe272d98937de715aad005d072a3bc99c092d3bb28fc3b046a5681",
+      "bytes": 109054
+    },
+    {
+      "url": "../docs/저녁미사악보/reengraved/sanctus-2.svg",
+      "sha256": "8818d5103fa465f16ad09d97cb186acca784f402b196d9be25dc52e1552911bf",
+      "bytes": 45434
+    },
+    {
+      "url": "apple-touch-icon.png",
+      "sha256": "0aa52d7b23c4e85701cd9e0d801e868d793a9a24b64222285e926b9886ac177f",
+      "bytes": 831
+    },
+    {
+      "url": "assets/fonts/5abcddaa3365a3f6.ttf",
+      "sha256": "5abcddaa3365a3f657490ef2cac846c43f1ce351432c8db33ec4753e4df9c6c6",
+      "bytes": 2054744
+    },
+    {
+      "url": "assets/fonts/9b7f25496a5168f0.ttf",
+      "sha256": "9b7f25496a5168f0507c713b47de9945287e1442ef73a3cb08e23a6df244e875",
+      "bytes": 3058408
+    },
+    {
+      "url": "assets/fonts/a1af209617c216c5.ttf",
+      "sha256": "a1af209617c216c58a63cf72b4fa37ef78bf96410d10a85b050a72e99ee42b78",
+      "bytes": 2073868
+    },
+    {
+      "url": "assets/fonts/a72e34576ea219f0.woff2",
+      "sha256": "a72e34576ea219f090a60859d62b13d369a646a78d4edb6833330ea7b50f6d55",
+      "bytes": 433776
+    },
+    {
+      "url": "assets/fonts/bc9ed8e60d93fe6d.ttf",
+      "sha256": "bc9ed8e60d93fe6db054b8fb988481b625f2eef8cb2317ad0e9834681b8fe3f3",
+      "bytes": 3074720
+    },
+    {
+      "url": "assets/fonts/ce6269a9ec6e0a4a.woff2",
+      "sha256": "ce6269a9ec6e0a4a983edf24aafc6ec328bfc04f3f13b063f7184ab581fce143",
+      "bytes": 2057688
+    },
+    {
+      "url": "assets/fonts/f325767b690bdaa5.woff2",
+      "sha256": "f325767b690bdaa5b786b860515473590d1382ed19c828b53091c7af2c3619da",
+      "bytes": 451596
+    },
+    {
+      "url": "assets/textures/aged.jpg",
+      "sha256": "24073d47cbfaeaa38b340efd246ed2310a3adec215155b347da897cbc41e2c6c",
+      "bytes": 28519352
+    },
+    {
+      "url": "assets/textures/edge.jpg",
+      "sha256": "95ae0cced6a3d9538e0e71448e01f5b531151f0ac3525421fd74f52edfd8298d",
+      "bytes": 78629
+    },
+    {
+      "url": "assets/textures/grain.jpg",
+      "sha256": "54ae9c65468a925f5369eca0454231afe1f5e43a96a61dcf081ba02934a3a370",
+      "bytes": 1059753
+    },
+    {
+      "url": "icon-192.png",
+      "sha256": "0aa52d7b23c4e85701cd9e0d801e868d793a9a24b64222285e926b9886ac177f",
+      "bytes": 831
+    },
+    {
+      "url": "icon-512.png",
+      "sha256": "018b35e4c9ad7d1a8794e1c54bee01ac7524cacf327353432e1012ea8ef91d8e",
+      "bytes": 3863
+    },
+    {
+      "url": "index.html",
+      "sha256": "54de4c761acce9fe56a004a06fc56f34eab6b68755c1ff7db841bd6d1b8cde7d",
+      "bytes": 1703791
+    },
+    {
+      "url": "manifest.webmanifest",
+      "sha256": "6af5f4d53e50341d7a58fbb13296cfe25b502034b7f054fe7adcf15a2cb68c7c",
+      "bytes": 678
+    },
+    {
+      "url": "../저녁미사 악보/KakaoTalk_20261025_193731927_25.jpg",
+      "sha256": "9529992643b45c35a9069f4220f6d19b42cb013f1c3d4d0b4e08eb0fb2564086",
+      "bytes": 5449293
+    },
+    {
+      "url": "../저녁미사 악보/KakaoTalk_20261025_193731927_26.jpg",
+      "sha256": "deedd71bff2eea3e2a5e4a37accd846ef3287c698043258ba098758b5c384b7c",
+      "bytes": 4864199
+    }
+  ],
+  "externalHymnsSaved": false
+}

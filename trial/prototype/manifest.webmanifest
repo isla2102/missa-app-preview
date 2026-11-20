@@ -1,0 +1,29 @@
+{
+  "name": "국우성당 MISSA TRIAL",
+  "short_name": "MISSA TRIAL",
+  "description": "기존 앱과 분리된 국우성당 미사 앱 시험 버전",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#E8E1D2",
+  "theme_color": "#E8E1D2",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "id": "./index.html"
+}
